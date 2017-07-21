@@ -1,0 +1,6 @@
+*.suo
+Source/packages/
+Source/PZone.Core.Tests/bin/
+Source/PZone.Core.Tests/obj/
+Source/PZone.Core/bin/
+Source/PZone.Core/obj/
