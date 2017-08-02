@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AmountInWords - класс">
+    <HelpKINode Title="AmountInWords - класс" Url="html/T_PZone_Formatting_AmountInWords.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_Formatting_AmountInWords__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Formatting_AmountInWords.htm" />
+    <HelpKINode Title="о AmountInWords - класс" Url="html/T_PZone_Formatting_AmountInWords.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Formatting_AmountInWords.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AmountInWords.AmountInWords конструктор" Url="html/M_PZone_Formatting_AmountInWords__ctor.htm" />
+  <HelpKINode Title="AmountInWords.Execute метод" Url="html/Overload_PZone_Formatting_AmountInWords_Execute.htm" />
+  <HelpKINode Title="AmountInWords.FractionalCurrencyTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalCurrencyTemplate.htm" />
+  <HelpKINode Title="AmountInWords.FractionalDelimiter свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalDelimiter.htm" />
+  <HelpKINode Title="AmountInWords.FractionalValueTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalValueTemplate.htm" />
+  <HelpKINode Title="AmountInWords.WholeCurrencyTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeCurrencyTemplate.htm" />
+  <HelpKINode Title="AmountInWords.WholeDelimiter свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeDelimiter.htm" />
+  <HelpKINode Title="AmountInWords.WholeFractionalDelimiter свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeFractionalDelimiter.htm" />
+  <HelpKINode Title="AmountInWords.WholeValueTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeValueTemplate.htm" />
+  <HelpKINode Title="AmountInWordsOptions - перечисление" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="BYN - член перечисления" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="Code свойство" Url="html/P_PZone_Exceptions_CommonException_Code.htm" />
+  <HelpKINode Title="Combine метод" Url="html/M_PZone_Helpers_UriHelper_Combine.htm" />
+  <HelpKINode Title="CommonException - класс">
+    <HelpKINode Title="CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_Exceptions_CommonException__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Exceptions_CommonException.htm" />
+    <HelpKINode Title="о CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Exceptions_CommonException.htm" />
+    <HelpKINode Title="события" Url="html/Events_T_PZone_Exceptions_CommonException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommonException.Code свойство" Url="html/P_PZone_Exceptions_CommonException_Code.htm" />
+  <HelpKINode Title="CommonException.CommonException конструктор" Url="html/Overload_PZone_Exceptions_CommonException__ctor.htm" />
+  <HelpKINode Title="CommonException.Details свойство" Url="html/P_PZone_Exceptions_CommonException_Details.htm" />
+  <HelpKINode Title="CommonException.Solutions свойство" Url="html/P_PZone_Exceptions_CommonException_Solutions.htm" />
+  <HelpKINode Title="Crop метод" Url="html/M_PZone_Formatting_StringFormatting_Crop.htm" />
+  <HelpKINode Title="Culture свойство" Url="html/P_PZone_CurrencyInfo_Culture.htm" />
+  <HelpKINode Title="Currencies - перечисление" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="CurrencyInfo - класс">
+    <HelpKINode Title="CurrencyInfo - класс" Url="html/T_PZone_CurrencyInfo.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_CurrencyInfo__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_CurrencyInfo.htm" />
+    <HelpKINode Title="о CurrencyInfo - класс" Url="html/T_PZone_CurrencyInfo.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_CurrencyInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CurrencyInfo.Culture свойство" Url="html/P_PZone_CurrencyInfo_Culture.htm" />
+  <HelpKINode Title="CurrencyInfo.CurrencyInfo конструктор" Url="html/Overload_PZone_CurrencyInfo__ctor.htm" />
+  <HelpKINode Title="CurrencyInfo.ExchangeRate свойство" Url="html/P_PZone_CurrencyInfo_ExchangeRate.htm" />
+  <HelpKINode Title="CurrencyInfo.FullName свойство" Url="html/P_PZone_CurrencyInfo_FullName.htm" />
+  <HelpKINode Title="CurrencyInfo.IsoCode свойство" Url="html/P_PZone_CurrencyInfo_IsoCode.htm" />
+  <HelpKINode Title="CurrencyInfo.IsoNumericCode свойство" Url="html/P_PZone_CurrencyInfo_IsoNumericCode.htm" />
+  <HelpKINode Title="CurrencyInfo.Name свойство" Url="html/P_PZone_CurrencyInfo_Name.htm" />
+  <HelpKINode Title="CurrencyInfo.Symbol свойство" Url="html/P_PZone_CurrencyInfo_Symbol.htm" />
+  <HelpKINode Title="Details свойство" Url="html/P_PZone_Exceptions_CommonException_Details.htm" />
+  <HelpKINode Title="EUR - член перечисления" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="ExchangeRate свойство" Url="html/P_PZone_CurrencyInfo_ExchangeRate.htm" />
+  <HelpKINode Title="Execute метод" Url="html/Overload_PZone_Formatting_AmountInWords_Execute.htm" />
+  <HelpKINode Title="FractionalCurrencyTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalCurrencyTemplate.htm" />
+  <HelpKINode Title="FractionalDelimiter свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalDelimiter.htm" />
+  <HelpKINode Title="FractionalOnly - член перечисления" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="FractionalValueTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalValueTemplate.htm" />
+  <HelpKINode Title="FullName свойство" Url="html/P_PZone_CurrencyInfo_FullName.htm" />
+  <HelpKINode Title="IncorrectCodeUsageException - класс">
+    <HelpKINode Title="IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_Exceptions_IncorrectCodeUsageException__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+    <HelpKINode Title="о IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+    <HelpKINode Title="события" Url="html/Events_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IncorrectCodeUsageException.IncorrectCodeUsageException конструктор" Url="html/M_PZone_Exceptions_IncorrectCodeUsageException__ctor.htm" />
+  <HelpKINode Title="IsoCode свойство" Url="html/P_PZone_CurrencyInfo_IsoCode.htm" />
+  <HelpKINode Title="IsoNumericCode свойство" Url="html/P_PZone_CurrencyInfo_IsoNumericCode.htm" />
+  <HelpKINode Title="KZT - член перечисления" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="MergeSpaces - член перечисления" Url="html/T_PZone_Formatting_StringCropOptions.htm" />
+  <HelpKINode Title="Name свойство" Url="html/P_PZone_CurrencyInfo_Name.htm" />
+  <HelpKINode Title="NewLineToSpace - член перечисления" Url="html/T_PZone_Formatting_StringCropOptions.htm" />
+  <HelpKINode Title="None - член перечисления" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="NumberHelper - класс">
+    <HelpKINode Title="NumberHelper - класс" Url="html/T_PZone_Helpers_NumberHelper.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Helpers_NumberHelper.htm" />
+    <HelpKINode Title="о NumberHelper - класс" Url="html/T_PZone_Helpers_NumberHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NumberHelper.Split метод" Url="html/M_PZone_Helpers_NumberHelper_Split.htm" />
+  <HelpKINode Title="NumberSplitOptions - перечисление" Url="html/T_PZone_Helpers_NumberSplitOptions.htm" />
+  <HelpKINode Title="NumericFractional - член перечисления" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="NumericWhole - член перечисления" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="PZone - пространство имён" Url="html/N_PZone.htm" />
+  <HelpKINode Title="PZone.Currencies - перечисление" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="PZone.CurrencyInfo - класс" Url="html/T_PZone_CurrencyInfo.htm" />
+  <HelpKINode Title="PZone.Exceptions - пространство имён" Url="html/N_PZone_Exceptions.htm" />
+  <HelpKINode Title="PZone.Exceptions.CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm" />
+  <HelpKINode Title="PZone.Exceptions.IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+  <HelpKINode Title="PZone.Formatting - пространство имён" Url="html/N_PZone_Formatting.htm" />
+  <HelpKINode Title="PZone.Formatting.AmountInWords - класс" Url="html/T_PZone_Formatting_AmountInWords.htm" />
+  <HelpKINode Title="PZone.Formatting.AmountInWordsOptions - перечисление" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="PZone.Formatting.StringCropOptions - перечисление" Url="html/T_PZone_Formatting_StringCropOptions.htm" />
+  <HelpKINode Title="PZone.Formatting.StringFormatting - класс" Url="html/T_PZone_Formatting_StringFormatting.htm" />
+  <HelpKINode Title="PZone.Helpers - пространство имён" Url="html/N_PZone_Helpers.htm" />
+  <HelpKINode Title="PZone.Helpers.NumberHelper - класс" Url="html/T_PZone_Helpers_NumberHelper.htm" />
+  <HelpKINode Title="PZone.Helpers.NumberSplitOptions - перечисление" Url="html/T_PZone_Helpers_NumberSplitOptions.htm" />
+  <HelpKINode Title="PZone.Helpers.UriHelper - класс" Url="html/T_PZone_Helpers_UriHelper.htm" />
+  <HelpKINode Title="RemoveHtmlTags - член перечисления" Url="html/T_PZone_Formatting_StringCropOptions.htm" />
+  <HelpKINode Title="RemoveWasteZeros - член перечисления" Url="html/T_PZone_Helpers_NumberSplitOptions.htm" />
+  <HelpKINode Title="RUB - член перечисления" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="Solutions свойство" Url="html/P_PZone_Exceptions_CommonException_Solutions.htm" />
+  <HelpKINode Title="Split метод" Url="html/M_PZone_Helpers_NumberHelper_Split.htm" />
+  <HelpKINode Title="StringCropOptions - перечисление" Url="html/T_PZone_Formatting_StringCropOptions.htm" />
+  <HelpKINode Title="StringFormatting - класс">
+    <HelpKINode Title="StringFormatting - класс" Url="html/T_PZone_Formatting_StringFormatting.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Formatting_StringFormatting.htm" />
+    <HelpKINode Title="о StringFormatting - класс" Url="html/T_PZone_Formatting_StringFormatting.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringFormatting.Crop метод" Url="html/M_PZone_Formatting_StringFormatting_Crop.htm" />
+  <HelpKINode Title="Symbol свойство" Url="html/P_PZone_CurrencyInfo_Symbol.htm" />
+  <HelpKINode Title="UAH - член перечисления" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="UriHelper - класс">
+    <HelpKINode Title="UriHelper - класс" Url="html/T_PZone_Helpers_UriHelper.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Helpers_UriHelper.htm" />
+    <HelpKINode Title="о UriHelper - класс" Url="html/T_PZone_Helpers_UriHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UriHelper.Combine метод" Url="html/M_PZone_Helpers_UriHelper_Combine.htm" />
+  <HelpKINode Title="USD - член перечисления" Url="html/T_PZone_Currencies.htm" />
+  <HelpKINode Title="WholeCurrencyTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeCurrencyTemplate.htm" />
+  <HelpKINode Title="WholeDelimiter свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeDelimiter.htm" />
+  <HelpKINode Title="WholeFractionalDelimiter свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeFractionalDelimiter.htm" />
+  <HelpKINode Title="WholeOnly - член перечисления" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
+  <HelpKINode Title="WholeValueTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeValueTemplate.htm" />
+</HelpKI>

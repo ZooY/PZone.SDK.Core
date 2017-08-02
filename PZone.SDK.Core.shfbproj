@@ -14,7 +14,7 @@
     <Name>Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.0</FrameworkVersion>
-    <OutputPath>Docs\</OutputPath>
+    <OutputPath>docs\</OutputPath>
     <HtmlHelpName>Documentation</HtmlHelpName>
     <Language>ru-RU</Language>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
