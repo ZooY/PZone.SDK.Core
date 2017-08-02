@@ -33,7 +33,7 @@
     <SyntaxFilters>C#</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>True</RootNamespaceContainer>
-    <PresentationStyle>OpenXML</PresentationStyle>
+    <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>PZone SDK Core</HelpTitle>
