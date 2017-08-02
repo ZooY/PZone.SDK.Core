@@ -1,1 +1,2 @@
-# PZone.SDK.Core
+# PZone SDK Core
+Common components for C# application developing.
