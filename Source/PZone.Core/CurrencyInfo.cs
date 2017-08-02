@@ -81,7 +81,7 @@ namespace PZone
         /// <summary>
         /// Конструтор класса.
         /// </summary>
-        /// <param name="currency">Значение валюты из перечисления <see cref="Currency"/>.</param>
+        /// <param name="currency">Значение валюты из перечисления <see cref="Currencies"/>.</param>
         /// <remarks>
         /// Все тексты возвращабтся на языке, установленном для текущего потока по умолчанию.
         /// </remarks>
@@ -93,7 +93,7 @@ namespace PZone
         /// <summary>
         /// Конструтор класса.
         /// </summary>
-        /// <param name="currency">Значение валюты из перечисления <see cref="Currency"/>.</param>
+        /// <param name="currency">Значение валюты из перечисления <see cref="Currencies"/>.</param>
         /// <param name="culture">Язык всех текстов с информацией о валюте.</param>
         public CurrencyInfo(Currencies currency, CultureInfo culture) : this(currency.ToString(), culture)
         {
@@ -103,7 +103,7 @@ namespace PZone
         /// <summary>
         /// Конструтор класса.
         /// </summary>
-        /// <param name="currency">Значение валюты из перечисления <see cref="Currency"/>.</param>
+        /// <param name="currency">Значение валюты из перечисления <see cref="Currencies"/>.</param>
         /// <param name="cultureName">Язык всех текстов с информацией о валюте.</param>
         public CurrencyInfo(Currencies currency, string cultureName) : this(currency.ToString(), new CultureInfo(cultureName))
         {

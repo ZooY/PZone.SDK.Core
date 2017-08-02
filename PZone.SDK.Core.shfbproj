@@ -26,13 +26,14 @@
     <CleanIntermediates>True</CleanIntermediates>
     <DocumentationSources>
       <DocumentationSource sourceFile="Source\PZone.Core\bin\Release\PZone.Core.dll" />
-<DocumentationSource sourceFile="Source\PZone.Core\bin\Release\PZone.Core.xml" /></DocumentationSources>
-    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+      <DocumentationSource sourceFile="Source\PZone.Core\bin\Release\PZone.Core.xml" />
+    </DocumentationSources>
+    <HelpFileVersion>1.0.5</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>True</NamespaceGrouping>
     <SyntaxFilters>C#</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
-    <RootNamespaceContainer>False</RootNamespaceContainer>
+    <RootNamespaceContainer>True</RootNamespaceContainer>
     <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>MemberName</NamingMethod>
@@ -51,6 +52,14 @@
     </ComponentConfigurations>
     <CopyrightText>Copyright &amp;#169%3b 2017 Programming Zone</CopyrightText>
     <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
+    <NamespaceSummaries>
+      <NamespaceSummaryItem name="PZone (Group)" isGroup="True" isDocumented="True" xmlns="">Common components for C# application developing.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone" isDocumented="True" xmlns="">Корневое пространство имен.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True" xmlns="">Общие типы исключений.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Formatting" isDocumented="True" xmlns="">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Helpers" isDocumented="True" xmlns="">Хелперы для работы с различными типами данных.</NamespaceSummaryItem></NamespaceSummaries>
+    <RootNamespaceTitle>
+    </RootNamespaceTitle>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
