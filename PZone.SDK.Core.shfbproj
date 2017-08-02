@@ -54,10 +54,11 @@
     <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="PZone (Group)" isGroup="True" isDocumented="True" xmlns="">Common components for C# application developing.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone" isDocumented="True" xmlns="">Корневое пространство имен.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True" xmlns="">Общие типы исключений.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Formatting" isDocumented="True" xmlns="">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Helpers" isDocumented="True" xmlns="">Хелперы для работы с различными типами данных.</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="PZone" isDocumented="True" xmlns="">Корневое пространство имен.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True" xmlns="">Общие типы исключений.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Formatting" isDocumented="True" xmlns="">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Helpers" isDocumented="True" xmlns="">Хелперы для работы с различными типами данных.</NamespaceSummaryItem>
+    </NamespaceSummaries>
     <RootNamespaceTitle>
     </RootNamespaceTitle>
   </PropertyGroup>

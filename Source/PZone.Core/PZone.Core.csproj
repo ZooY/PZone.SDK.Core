@@ -47,8 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CurrencyInfo.cs" />
+    <Compile Include="Exceptions\CodeUsageException.cs" />
     <Compile Include="Exceptions\CommonException.cs" />
-    <Compile Include="Exceptions\IncorrectCodeUsageException.cs" />
+    <Compile Include="Exceptions\ConfigurationException.cs" />
     <Compile Include="Formatting\AmountInWords.cs" />
     <Compile Include="Currencies.cs" />
     <Compile Include="Formatting\AmountInWordsOptions.cs" />

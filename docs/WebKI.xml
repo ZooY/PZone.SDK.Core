@@ -19,6 +19,15 @@
   <HelpKINode Title="AmountInWordsOptions - перечисление" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
   <HelpKINode Title="BYN - член перечисления" Url="html/T_PZone_Currencies.htm" />
   <HelpKINode Title="Code свойство" Url="html/P_PZone_Exceptions_CommonException_Code.htm" />
+  <HelpKINode Title="CodeUsageException - класс">
+    <HelpKINode Title="CodeUsageException - класс" Url="html/T_PZone_Exceptions_CodeUsageException.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_Exceptions_CodeUsageException__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Exceptions_CodeUsageException.htm" />
+    <HelpKINode Title="о CodeUsageException - класс" Url="html/T_PZone_Exceptions_CodeUsageException.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Exceptions_CodeUsageException.htm" />
+    <HelpKINode Title="события" Url="html/Events_T_PZone_Exceptions_CodeUsageException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeUsageException.CodeUsageException конструктор" Url="html/M_PZone_Exceptions_CodeUsageException__ctor.htm" />
   <HelpKINode Title="Combine метод" Url="html/M_PZone_Helpers_UriHelper_Combine.htm" />
   <HelpKINode Title="CommonException - класс">
     <HelpKINode Title="CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm" />
@@ -32,6 +41,15 @@
   <HelpKINode Title="CommonException.CommonException конструктор" Url="html/Overload_PZone_Exceptions_CommonException__ctor.htm" />
   <HelpKINode Title="CommonException.Details свойство" Url="html/P_PZone_Exceptions_CommonException_Details.htm" />
   <HelpKINode Title="CommonException.Solutions свойство" Url="html/P_PZone_Exceptions_CommonException_Solutions.htm" />
+  <HelpKINode Title="ConfigurationException - класс">
+    <HelpKINode Title="ConfigurationException - класс" Url="html/T_PZone_Exceptions_ConfigurationException.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_Exceptions_ConfigurationException__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Exceptions_ConfigurationException.htm" />
+    <HelpKINode Title="о ConfigurationException - класс" Url="html/T_PZone_Exceptions_ConfigurationException.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Exceptions_ConfigurationException.htm" />
+    <HelpKINode Title="события" Url="html/Events_T_PZone_Exceptions_ConfigurationException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfigurationException.ConfigurationException конструктор" Url="html/Overload_PZone_Exceptions_ConfigurationException__ctor.htm" />
   <HelpKINode Title="Crop метод" Url="html/M_PZone_Formatting_StringFormatting_Crop.htm" />
   <HelpKINode Title="Culture свойство" Url="html/P_PZone_CurrencyInfo_Culture.htm" />
   <HelpKINode Title="Currencies - перечисление" Url="html/T_PZone_Currencies.htm" />
@@ -59,15 +77,6 @@
   <HelpKINode Title="FractionalOnly - член перечисления" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
   <HelpKINode Title="FractionalValueTemplate свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalValueTemplate.htm" />
   <HelpKINode Title="FullName свойство" Url="html/P_PZone_CurrencyInfo_FullName.htm" />
-  <HelpKINode Title="IncorrectCodeUsageException - класс">
-    <HelpKINode Title="IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-    <HelpKINode Title="конструктор" Url="html/M_PZone_Exceptions_IncorrectCodeUsageException__ctor.htm" />
-    <HelpKINode Title="методы" Url="html/Methods_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-    <HelpKINode Title="о IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-    <HelpKINode Title="события" Url="html/Events_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-  </HelpKINode>
-  <HelpKINode Title="IncorrectCodeUsageException.IncorrectCodeUsageException конструктор" Url="html/M_PZone_Exceptions_IncorrectCodeUsageException__ctor.htm" />
   <HelpKINode Title="IsoCode свойство" Url="html/P_PZone_CurrencyInfo_IsoCode.htm" />
   <HelpKINode Title="IsoNumericCode свойство" Url="html/P_PZone_CurrencyInfo_IsoNumericCode.htm" />
   <HelpKINode Title="KZT - член перечисления" Url="html/T_PZone_Currencies.htm" />
@@ -88,8 +97,9 @@
   <HelpKINode Title="PZone.Currencies - перечисление" Url="html/T_PZone_Currencies.htm" />
   <HelpKINode Title="PZone.CurrencyInfo - класс" Url="html/T_PZone_CurrencyInfo.htm" />
   <HelpKINode Title="PZone.Exceptions - пространство имён" Url="html/N_PZone_Exceptions.htm" />
+  <HelpKINode Title="PZone.Exceptions.CodeUsageException - класс" Url="html/T_PZone_Exceptions_CodeUsageException.htm" />
   <HelpKINode Title="PZone.Exceptions.CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm" />
-  <HelpKINode Title="PZone.Exceptions.IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+  <HelpKINode Title="PZone.Exceptions.ConfigurationException - класс" Url="html/T_PZone_Exceptions_ConfigurationException.htm" />
   <HelpKINode Title="PZone.Formatting - пространство имён" Url="html/N_PZone_Formatting.htm" />
   <HelpKINode Title="PZone.Formatting.AmountInWords - класс" Url="html/T_PZone_Formatting_AmountInWords.htm" />
   <HelpKINode Title="PZone.Formatting.AmountInWordsOptions - перечисление" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />

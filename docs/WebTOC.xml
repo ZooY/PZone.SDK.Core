@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="a2808eb4-3386-4fea-99a9-acd00988890c" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="92b60519-6e10-4b84-b2d4-848f39d7e4ac" Title="PZone" Url="html/N_PZone.htm">
+  <HelpTOCNode Id="4cc142ab-55fd-46d2-9e08-1410d427d03d" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="4a98b206-bc1b-4dd9-8995-4aa7dc2d284a" Title="PZone" Url="html/N_PZone.htm">
       <HelpTOCNode Title="Currencies - перечисление" Url="html/T_PZone_Currencies.htm" />
-      <HelpTOCNode Id="9f86a313-9290-4649-87fe-8cd957aeb412" Title="CurrencyInfo - класс" Url="html/T_PZone_CurrencyInfo.htm">
-        <HelpTOCNode Id="cfb4c786-f2ba-494d-ad97-8558e7d2c087" Title="CurrencyInfo - конструктор" Url="html/Overload_PZone_CurrencyInfo__ctor.htm">
+      <HelpTOCNode Id="25ea7f41-7d13-4552-b36b-144c82dcc05b" Title="CurrencyInfo - класс" Url="html/T_PZone_CurrencyInfo.htm">
+        <HelpTOCNode Id="e525fd3a-5c36-43c7-91e7-e962a1ac8670" Title="CurrencyInfo - конструктор" Url="html/Overload_PZone_CurrencyInfo__ctor.htm">
           <HelpTOCNode Title="CurrencyInfo(String) - конструктор" Url="html/M_PZone_CurrencyInfo__ctor_3.htm" />
           <HelpTOCNode Title="CurrencyInfo(Currencies) - конструктор" Url="html/M_PZone_CurrencyInfo__ctor.htm" />
           <HelpTOCNode Title="CurrencyInfo(String, CultureInfo) - конструктор" Url="html/M_PZone_CurrencyInfo__ctor_4.htm" />
@@ -13,7 +13,7 @@
           <HelpTOCNode Title="CurrencyInfo(Currencies, CultureInfo) - конструктор" Url="html/M_PZone_CurrencyInfo__ctor_1.htm" />
           <HelpTOCNode Title="CurrencyInfo(Currencies, String) - конструктор" Url="html/M_PZone_CurrencyInfo__ctor_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3b4a05a7-5cc4-4b3d-9a36-b3df2f1286ed" Title="CurrencyInfo - свойства" Url="html/Properties_T_PZone_CurrencyInfo.htm">
+        <HelpTOCNode Id="11d5a496-9c99-4953-99b1-473c791ae104" Title="CurrencyInfo - свойства" Url="html/Properties_T_PZone_CurrencyInfo.htm">
           <HelpTOCNode Title="Culture - свойство" Url="html/P_PZone_CurrencyInfo_Culture.htm" />
           <HelpTOCNode Title="ExchangeRate - свойство" Url="html/P_PZone_CurrencyInfo_ExchangeRate.htm" />
           <HelpTOCNode Title="FullName - свойство" Url="html/P_PZone_CurrencyInfo_FullName.htm" />
@@ -25,15 +25,21 @@
         <HelpTOCNode Title="CurrencyInfo - методы" Url="html/Methods_T_PZone_CurrencyInfo.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="78ebed10-dc3d-4a3a-8387-bf28239cbf40" Title="PZone.Exceptions" Url="html/N_PZone_Exceptions.htm">
-      <HelpTOCNode Id="73bc1003-9910-46f0-a266-440582af96f6" Title="CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm">
-        <HelpTOCNode Id="087d1748-7d23-403d-981f-3fdf2aecb321" Title="CommonException - конструктор" Url="html/Overload_PZone_Exceptions_CommonException__ctor.htm">
+    <HelpTOCNode Id="693b3f00-f660-4bc0-9a52-294203dc735c" Title="PZone.Exceptions" Url="html/N_PZone_Exceptions.htm">
+      <HelpTOCNode Id="0da20f14-3bd2-4228-b0f9-bd7b335058ff" Title="CodeUsageException - класс" Url="html/T_PZone_Exceptions_CodeUsageException.htm">
+        <HelpTOCNode Title="CodeUsageException - конструктор" Url="html/M_PZone_Exceptions_CodeUsageException__ctor.htm" />
+        <HelpTOCNode Title="CodeUsageException - свойства" Url="html/Properties_T_PZone_Exceptions_CodeUsageException.htm" />
+        <HelpTOCNode Title="CodeUsageException - методы" Url="html/Methods_T_PZone_Exceptions_CodeUsageException.htm" />
+        <HelpTOCNode Title="CodeUsageException - события" Url="html/Events_T_PZone_Exceptions_CodeUsageException.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="827e4787-29c3-47dc-97af-a724f67883e2" Title="CommonException - класс" Url="html/T_PZone_Exceptions_CommonException.htm">
+        <HelpTOCNode Id="c05c1f35-5ac2-4f80-8e7c-388f354ed018" Title="CommonException - конструктор" Url="html/Overload_PZone_Exceptions_CommonException__ctor.htm">
           <HelpTOCNode Title="CommonException(String) - конструктор" Url="html/M_PZone_Exceptions_CommonException__ctor_3.htm" />
           <HelpTOCNode Title="CommonException(Int32, String) - конструктор" Url="html/M_PZone_Exceptions_CommonException__ctor.htm" />
           <HelpTOCNode Title="CommonException(Int32, String, Exception) - конструктор" Url="html/M_PZone_Exceptions_CommonException__ctor_1.htm" />
           <HelpTOCNode Title="CommonException(Int32, String, String, Exception) - конструктор" Url="html/M_PZone_Exceptions_CommonException__ctor_2.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="52a92dd6-b120-4922-b717-dad8da6342a1" Title="CommonException - свойства" Url="html/Properties_T_PZone_Exceptions_CommonException.htm">
+        <HelpTOCNode Id="efce9fc4-8a45-4663-86b3-a2005815d635" Title="CommonException - свойства" Url="html/Properties_T_PZone_Exceptions_CommonException.htm">
           <HelpTOCNode Title="Code - свойство" Url="html/P_PZone_Exceptions_CommonException_Code.htm" />
           <HelpTOCNode Title="Details - свойство" Url="html/P_PZone_Exceptions_CommonException_Details.htm" />
           <HelpTOCNode Title="Solutions - свойство" Url="html/P_PZone_Exceptions_CommonException_Solutions.htm" />
@@ -41,17 +47,21 @@
         <HelpTOCNode Title="CommonException - методы" Url="html/Methods_T_PZone_Exceptions_CommonException.htm" />
         <HelpTOCNode Title="CommonException - события" Url="html/Events_T_PZone_Exceptions_CommonException.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="eb821a15-15bb-4b96-a936-7bb85b448466" Title="IncorrectCodeUsageException - класс" Url="html/T_PZone_Exceptions_IncorrectCodeUsageException.htm">
-        <HelpTOCNode Title="IncorrectCodeUsageException - конструктор" Url="html/M_PZone_Exceptions_IncorrectCodeUsageException__ctor.htm" />
-        <HelpTOCNode Title="IncorrectCodeUsageException - свойства" Url="html/Properties_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-        <HelpTOCNode Title="IncorrectCodeUsageException - методы" Url="html/Methods_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
-        <HelpTOCNode Title="IncorrectCodeUsageException - события" Url="html/Events_T_PZone_Exceptions_IncorrectCodeUsageException.htm" />
+      <HelpTOCNode Id="33bed1db-80bf-4c10-8335-157978a8432a" Title="ConfigurationException - класс" Url="html/T_PZone_Exceptions_ConfigurationException.htm">
+        <HelpTOCNode Id="a48ac803-f7e2-4ab5-9d2c-02c9aa9509c4" Title="ConfigurationException - конструктор" Url="html/Overload_PZone_Exceptions_ConfigurationException__ctor.htm">
+          <HelpTOCNode Title="ConfigurationException(String) - конструктор" Url="html/M_PZone_Exceptions_ConfigurationException__ctor_2.htm" />
+          <HelpTOCNode Title="ConfigurationException(Int32, String) - конструктор" Url="html/M_PZone_Exceptions_ConfigurationException__ctor.htm" />
+          <HelpTOCNode Title="ConfigurationException(Int32, String, Exception) - конструктор" Url="html/M_PZone_Exceptions_ConfigurationException__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ConfigurationException - свойства" Url="html/Properties_T_PZone_Exceptions_ConfigurationException.htm" />
+        <HelpTOCNode Title="ConfigurationException - методы" Url="html/Methods_T_PZone_Exceptions_ConfigurationException.htm" />
+        <HelpTOCNode Title="ConfigurationException - события" Url="html/Events_T_PZone_Exceptions_ConfigurationException.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1f55ba80-87b8-41c0-9673-dbb341ef100b" Title="PZone.Formatting" Url="html/N_PZone_Formatting.htm">
-      <HelpTOCNode Id="8a749a81-d9fc-4e7b-8cd2-94f5bf59aebc" Title="AmountInWords - класс" Url="html/T_PZone_Formatting_AmountInWords.htm">
+    <HelpTOCNode Id="2cb6698f-6f2e-4452-ab00-94b664be9697" Title="PZone.Formatting" Url="html/N_PZone_Formatting.htm">
+      <HelpTOCNode Id="7caa34be-0493-43c7-9196-df24873e453c" Title="AmountInWords - класс" Url="html/T_PZone_Formatting_AmountInWords.htm">
         <HelpTOCNode Title="AmountInWords - конструктор" Url="html/M_PZone_Formatting_AmountInWords__ctor.htm" />
-        <HelpTOCNode Id="f56a57a4-a3f5-4322-bc2f-19bbd86d8b45" Title="AmountInWords - свойства" Url="html/Properties_T_PZone_Formatting_AmountInWords.htm">
+        <HelpTOCNode Id="450cb01a-62fe-4d8c-8e2a-d3e13927a689" Title="AmountInWords - свойства" Url="html/Properties_T_PZone_Formatting_AmountInWords.htm">
           <HelpTOCNode Title="FractionalCurrencyTemplate - свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalCurrencyTemplate.htm" />
           <HelpTOCNode Title="FractionalDelimiter - свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalDelimiter.htm" />
           <HelpTOCNode Title="FractionalValueTemplate - свойство" Url="html/P_PZone_Formatting_AmountInWords_FractionalValueTemplate.htm" />
@@ -60,8 +70,8 @@
           <HelpTOCNode Title="WholeFractionalDelimiter - свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeFractionalDelimiter.htm" />
           <HelpTOCNode Title="WholeValueTemplate - свойство" Url="html/P_PZone_Formatting_AmountInWords_WholeValueTemplate.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6be37fe2-6843-4cd7-986f-9ecb98490439" Title="AmountInWords - методы" Url="html/Methods_T_PZone_Formatting_AmountInWords.htm">
-          <HelpTOCNode Id="7f7a91c8-49a6-4e1d-b315-beace75ce9c9" Title="Execute - метод" Url="html/Overload_PZone_Formatting_AmountInWords_Execute.htm">
+        <HelpTOCNode Id="c12f0b99-efce-48d8-8286-fc2f1321c0e4" Title="AmountInWords - методы" Url="html/Methods_T_PZone_Formatting_AmountInWords.htm">
+          <HelpTOCNode Id="24c3117d-9ebd-476a-afd6-6c3aad3ed3fe" Title="Execute - метод" Url="html/Overload_PZone_Formatting_AmountInWords_Execute.htm">
             <HelpTOCNode Title="Execute(Decimal, Currencies, AmountInWordsOptions) - метод" Url="html/M_PZone_Formatting_AmountInWords_Execute.htm" />
             <HelpTOCNode Title="Execute(Single, Currencies, AmountInWordsOptions) - метод" Url="html/M_PZone_Formatting_AmountInWords_Execute_1.htm" />
             <HelpTOCNode Title="Execute(String, Currencies, AmountInWordsOptions) - метод" Url="html/M_PZone_Formatting_AmountInWords_Execute_2.htm" />
@@ -70,21 +80,21 @@
       </HelpTOCNode>
       <HelpTOCNode Title="AmountInWordsOptions - перечисление" Url="html/T_PZone_Formatting_AmountInWordsOptions.htm" />
       <HelpTOCNode Title="StringCropOptions - перечисление" Url="html/T_PZone_Formatting_StringCropOptions.htm" />
-      <HelpTOCNode Id="e60f7cce-6d0c-4539-b760-452b101e3779" Title="StringFormatting - класс" Url="html/T_PZone_Formatting_StringFormatting.htm">
-        <HelpTOCNode Id="032e53fd-acb9-4c30-834a-15fbb8c03d74" Title="StringFormatting - методы" Url="html/Methods_T_PZone_Formatting_StringFormatting.htm">
+      <HelpTOCNode Id="bac6d26e-1953-45e8-9bcc-b238b09f9910" Title="StringFormatting - класс" Url="html/T_PZone_Formatting_StringFormatting.htm">
+        <HelpTOCNode Id="5c889652-cdb8-4cc2-8728-203716ecb6b5" Title="StringFormatting - методы" Url="html/Methods_T_PZone_Formatting_StringFormatting.htm">
           <HelpTOCNode Title="Crop - метод" Url="html/M_PZone_Formatting_StringFormatting_Crop.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5af434cc-d584-4363-b89b-61720702b62a" Title="PZone.Helpers" Url="html/N_PZone_Helpers.htm">
-      <HelpTOCNode Id="91bc17b8-c680-4319-a4ad-7baea0532a31" Title="NumberHelper - класс" Url="html/T_PZone_Helpers_NumberHelper.htm">
-        <HelpTOCNode Id="3cf35bd8-38b1-4503-ac12-ff06f782c122" Title="NumberHelper - методы" Url="html/Methods_T_PZone_Helpers_NumberHelper.htm">
+    <HelpTOCNode Id="7efc0837-1f95-497e-b9f2-7eda4620eb06" Title="PZone.Helpers" Url="html/N_PZone_Helpers.htm">
+      <HelpTOCNode Id="2fa9b0e1-3047-49a1-892f-0b86bfad5a11" Title="NumberHelper - класс" Url="html/T_PZone_Helpers_NumberHelper.htm">
+        <HelpTOCNode Id="57d8ad2c-9b6d-4563-a62b-d83e4b74f69a" Title="NumberHelper - методы" Url="html/Methods_T_PZone_Helpers_NumberHelper.htm">
           <HelpTOCNode Title="Split - метод" Url="html/M_PZone_Helpers_NumberHelper_Split.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="NumberSplitOptions - перечисление" Url="html/T_PZone_Helpers_NumberSplitOptions.htm" />
-      <HelpTOCNode Id="7787ad02-7b91-4e99-b6f0-1f590268a600" Title="UriHelper - класс" Url="html/T_PZone_Helpers_UriHelper.htm">
-        <HelpTOCNode Id="984a82a5-2812-4c51-9819-d23242144f11" Title="UriHelper - методы" Url="html/Methods_T_PZone_Helpers_UriHelper.htm">
+      <HelpTOCNode Id="c5aca7d5-0d1e-4c1f-9a63-0381f9a35228" Title="UriHelper - класс" Url="html/T_PZone_Helpers_UriHelper.htm">
+        <HelpTOCNode Id="9d82f922-0314-4f04-b753-db5611ba3dd3" Title="UriHelper - методы" Url="html/Methods_T_PZone_Helpers_UriHelper.htm">
           <HelpTOCNode Title="Combine - метод" Url="html/M_PZone_Helpers_UriHelper_Combine.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
