@@ -13,4 +13,4 @@ PM> Install-Package PZone.SDK.Core
 
 ## Download
 
-<a href="https://preview.nuget.org/packages/PZone.SDK.Core/" target="_blank">Latest release</a>
+<a href="https://github.com/ZooY/PZone.SDK.Core/releases" target="_blank">Latest release</a>
