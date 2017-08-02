@@ -1,1 +1,0 @@
-# PZone.SDK.Core
