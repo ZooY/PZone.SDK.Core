@@ -36,6 +36,10 @@ namespace PZone.Formatting
             if (options.HasFlag(StringCropOptions.MergeSpaces))
                 str = Regex.Replace(str, @"\s{2,}", " ");
 
+            strLength = str.Length;
+            if (strLength <= maxLength)
+                return str;
+
             str = str.Substring(0, maxLength);
             var lastIndex = Regex.Match(str, @"\W+\w*$", RegexOptions.Multiline).Index;
             return str.Substring(0, lastIndex) + "...";
