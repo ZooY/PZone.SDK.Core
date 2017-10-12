@@ -1,4 +1,8 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Web;
 
 
 namespace PZone.Helpers
@@ -26,6 +30,35 @@ namespace PZone.Helpers
             if (parts == null || parts.Length < 1)
                 return null;
             return new Regex("(?<!:)[/]{2,}").Replace(string.Join("/", parts), "/");
+        }
+
+
+        /// <summary>
+        /// Добавялет к основному адресу строку с параметрами.
+        /// </summary>
+        /// <param name="uri">Основной адрес.</param>
+        /// <param name="parameters">Список параметров.</param>
+        /// <returns>
+        /// Метод возввращает новый URI, сформированный из основного адреса и добавленных к нему параметров.
+        /// </returns>
+        public static string AppendParameters(string uri, Dictionary<string, object> parameters)
+        {
+            if (parameters == null || parameters.Count < 1)
+                return uri;
+            return uri + "?" + string.Join("&", parameters.Select(dataItem => $"{dataItem.Key}={CreateParameter(dataItem.Value)}"));
+        }
+
+
+        private static string CreateParameter(object obj)
+        {
+            if (obj == null)
+                return string.Empty;
+            string value;
+            if (obj is DateTime)
+                value = ((DateTime)obj).ToString("s");
+            else
+                value = obj.ToString();
+            return HttpUtility.UrlEncode(value);
         }
     }
 }
