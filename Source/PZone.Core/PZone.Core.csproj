@@ -47,6 +47,9 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\IDictionaryExtensions.cs" />
+    <Compile Include="EnumExtensions.cs" />
+    <Compile Include="NameAttribute.cs" />
     <Compile Include="CurrencyInfo.cs" />
     <Compile Include="Exceptions\CodeUsageException.cs" />
     <Compile Include="Exceptions\CommonException.cs" />
@@ -58,8 +61,18 @@
     <Compile Include="Formatting\StringFormatting.cs" />
     <Compile Include="Helpers\NumberSplitOptions.cs" />
     <Compile Include="Helpers\NumberHelper.cs" />
+    <Compile Include="Json\WebExceptionConverter.cs" />
+    <Compile Include="Logging\EventLogLogger.cs" />
+    <Compile Include="Logging\ConsoleLog.cs" />
+    <Compile Include="Logging\LogLevelExtensions.cs" />
+    <Compile Include="Logging\LoggerBase.cs" />
+    <Compile Include="Logging\LogLevel.cs" />
+    <Compile Include="Logging\IInternalLogger.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\ListInternalLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Helpers\UriHelper.cs" />
+    <Compile Include="Security\MD5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

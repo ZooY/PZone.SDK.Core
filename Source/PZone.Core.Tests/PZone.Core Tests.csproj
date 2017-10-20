@@ -58,6 +58,7 @@
     <Compile Include="Formatting\AmountInWordsTest.cs" />
     <Compile Include="Helpers\NumberHelperTests.cs" />
     <Compile Include="Helpers\UriHelperTest.cs" />
+    <Compile Include="Logging\LoggerBaseTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
