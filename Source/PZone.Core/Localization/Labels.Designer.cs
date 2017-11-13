@@ -61,7 +61,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Век.
+        ///   Looks up a localized string similar to Century.
         /// </summary>
         internal static string Century {
             get {
@@ -70,7 +70,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to День.
+        ///   Looks up a localized string similar to Day.
         /// </summary>
         internal static string Day {
             get {
@@ -79,7 +79,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Час.
+        ///   Looks up a localized string similar to Hour.
         /// </summary>
         internal static string Hour {
             get {
@@ -88,7 +88,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Миллисекунда.
+        ///   Looks up a localized string similar to Millisecond.
         /// </summary>
         internal static string Millisecond {
             get {
@@ -97,7 +97,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Минута.
+        ///   Looks up a localized string similar to Minute.
         /// </summary>
         internal static string Minute {
             get {
@@ -106,7 +106,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Месяц.
+        ///   Looks up a localized string similar to Month.
         /// </summary>
         internal static string Month {
             get {
@@ -115,7 +115,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Квартал.
+        ///   Looks up a localized string similar to Quarter.
         /// </summary>
         internal static string Quarter {
             get {
@@ -124,7 +124,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Секунда.
+        ///   Looks up a localized string similar to Second.
         /// </summary>
         internal static string Second {
             get {
@@ -133,7 +133,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Неизвестно.
+        ///   Looks up a localized string similar to Unknown.
         /// </summary>
         internal static string Unknown {
             get {
@@ -142,7 +142,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Неделя.
+        ///   Looks up a localized string similar to Week.
         /// </summary>
         internal static string Week {
             get {
@@ -151,7 +151,7 @@ namespace PZone.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Год.
+        ///   Looks up a localized string similar to Year.
         /// </summary>
         internal static string Year {
             get {

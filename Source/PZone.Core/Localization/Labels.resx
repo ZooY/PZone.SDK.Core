@@ -118,36 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Century" xml:space="preserve">
-    <value>Век</value>
+    <value>Century</value>
   </data>
   <data name="Day" xml:space="preserve">
-    <value>День</value>
+    <value>Day</value>
   </data>
   <data name="Hour" xml:space="preserve">
-    <value>Час</value>
+    <value>Hour</value>
   </data>
   <data name="Millisecond" xml:space="preserve">
-    <value>Миллисекунда</value>
+    <value>Millisecond</value>
   </data>
   <data name="Minute" xml:space="preserve">
-    <value>Минута</value>
+    <value>Minute</value>
   </data>
   <data name="Month" xml:space="preserve">
-    <value>Месяц</value>
+    <value>Month</value>
   </data>
   <data name="Quarter" xml:space="preserve">
-    <value>Квартал</value>
+    <value>Quarter</value>
   </data>
   <data name="Second" xml:space="preserve">
-    <value>Секунда</value>
+    <value>Second</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>Неизвестно</value>
+    <value>Unknown</value>
   </data>
   <data name="Week" xml:space="preserve">
-    <value>Неделя</value>
+    <value>Week</value>
   </data>
   <data name="Year" xml:space="preserve">
-    <value>Год</value>
+    <value>Year</value>
   </data>
 </root>

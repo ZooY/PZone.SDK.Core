@@ -49,11 +49,6 @@
   <ItemGroup>
     <Compile Include="Collections\IDictionaryExtensions.cs" />
     <Compile Include="EnumExtensions.cs" />
-    <Compile Include="Localization\Labels.en.Designer.cs">
-      <DependentUpon>Labels.en.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <Compile Include="Localization\Labels.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -73,7 +68,7 @@
     <Compile Include="Helpers\NumberHelper.cs" />
     <Compile Include="Json\WebExceptionConverter.cs" />
     <Compile Include="Logging\EventLogLogger.cs" />
-    <Compile Include="Logging\ConsoleLog.cs" />
+    <Compile Include="Logging\ConsoleLogger.cs" />
     <Compile Include="Logging\LogLevelExtensions.cs" />
     <Compile Include="Logging\LoggerBase.cs" />
     <Compile Include="Logging\LogLevel.cs" />
@@ -94,9 +89,9 @@
     <None Include="PZone.snk" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Localization\Labels.en.resx">
+    <EmbeddedResource Include="Localization\Labels.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Labels.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Labels.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Localization\Labels.resx">
       <Generator>ResXFileCodeGenerator</Generator>
