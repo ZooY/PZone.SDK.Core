@@ -49,6 +49,16 @@
   <ItemGroup>
     <Compile Include="Collections\IDictionaryExtensions.cs" />
     <Compile Include="EnumExtensions.cs" />
+    <Compile Include="Localization\Labels.en.Designer.cs">
+      <DependentUpon>Labels.en.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localization\Labels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.resx</DependentUpon>
+    </Compile>
     <Compile Include="NameAttribute.cs" />
     <Compile Include="CurrencyInfo.cs" />
     <Compile Include="Exceptions\CodeUsageException.cs" />
@@ -75,10 +85,23 @@
     <Compile Include="Helpers\UriHelper.cs" />
     <Compile Include="Security\MD5.cs" />
     <Compile Include="TimeUnit.cs" />
+    <Compile Include="Web\QueryStringConvert.cs" />
+    <Compile Include="Web\QueryStringConverter.cs" />
+    <Compile Include="Web\QueryStringConverterAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="PZone.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Labels.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\Labels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
