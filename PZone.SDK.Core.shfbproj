@@ -28,7 +28,7 @@
       <DocumentationSource sourceFile="Source\PZone.Core\bin\Release\PZone.Core.dll" />
       <DocumentationSource sourceFile="Source\PZone.Core\bin\Release\PZone.Core.xml" />
     </DocumentationSources>
-    <HelpFileVersion>1.0.5</HelpFileVersion>
+    <HelpFileVersion>1.1.0.0</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>True</NamespaceGrouping>
     <SyntaxFilters>C#</SyntaxFilters>
@@ -91,4 +91,9 @@
     </PostBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Source\PZone.Core\bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
