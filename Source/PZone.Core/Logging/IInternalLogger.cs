@@ -13,12 +13,10 @@ namespace PZone.Logging
         /// </summary>
         ILogger ParentLogger { get; }
 
-
         /// <summary>
         /// Флаг, показывающий включен ли внутренний журнал.
         /// </summary>
         bool IsEnabled { get; set; }
-
 
         /// <summary>
         /// Сообщения журнала.

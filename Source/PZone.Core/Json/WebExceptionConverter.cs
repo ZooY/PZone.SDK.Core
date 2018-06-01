@@ -64,3 +64,20 @@ namespace PZone.Json
         }
     }
 }
+
+
+/*
+ 
+Настройки JSON-сериализации, максимально снижающие возможность ошибки
+
+var jsonSettings = new JsonSerializerSettings
+{
+    Formatting = Newtonsoft.Json.Formatting.Indented,
+    NullValueHandling = NullValueHandling.Ignore,
+    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+    DateFormatHandling = DateFormatHandling.IsoDateFormat,
+    Error = (s, e) => { e.ErrorContext.Handled = true; },
+    Converters = new List<JsonConverter> { new WebExceptionConverter() }
+};
+
+ */

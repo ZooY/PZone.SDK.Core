@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 using System.Web;
 
 
-namespace PZone.Helpers
+namespace PZone
 {
     /// <summary>
     /// Хелпер для работы с URI.

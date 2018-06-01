@@ -14,6 +14,18 @@ namespace PZone.Logging
         IInternalLogger InternalLogger { get; }
 
 
+        /// <summary>
+        /// Настройки журналирования.
+        /// </summary>
+        ILoggerSettings Settings { get; }
+
+
+        /// <summary>
+        /// Идентификатор отслеживания.
+        /// </summary>
+        Guid CorrelationId { get; }
+
+
         #region Debug
 
 

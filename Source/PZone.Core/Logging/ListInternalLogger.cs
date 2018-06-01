@@ -13,10 +13,12 @@ namespace PZone.Logging
     {
         private readonly List<object> _messages;
 
+
         /// <summary>
         /// Родительский журнализатор.
         /// </summary>
         public ILogger ParentLogger { get; }
+
 
         /// <summary>
         /// Флаг, показывающий включен ли внутренний журнал.
