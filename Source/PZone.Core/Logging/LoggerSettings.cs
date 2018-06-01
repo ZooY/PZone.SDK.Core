@@ -3,7 +3,7 @@
     /// <summary>
     /// Настройки журнализатора.
     /// </summary>
-    public class LoggerSettings : ILoggerSettings
+    public class LoggerConfiguration : ILoggerConfiguration
     {
         /// <inheritdoc />
         public string SystemId { get; set; }

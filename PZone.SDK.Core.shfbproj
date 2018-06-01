@@ -53,12 +53,17 @@
     <CopyrightText>Copyright &amp;#169%3b 2017 Programming Zone</CopyrightText>
     <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
     <NamespaceSummaries>
-      <NamespaceSummaryItem name="PZone (Group)" isGroup="True" isDocumented="True" xmlns="">Common components for C# application developing.</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="PZone" isDocumented="True" xmlns="">Корневое пространство имен.</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True" xmlns="">Общие типы исключений.</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="PZone.Formatting" isDocumented="True" xmlns="">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
-      <NamespaceSummaryItem name="PZone.Helpers" isDocumented="True" xmlns="">Хелперы для работы с различными типами данных.</NamespaceSummaryItem>
-    </NamespaceSummaries>
+      <NamespaceSummaryItem name="PZone (Group)" isGroup="True" isDocumented="True">Common components for C# application developing.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone" isDocumented="True">Корневое пространство имен.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True">Общие типы исключений.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Formatting" isDocumented="True">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Helpers" isDocumented="True">Хелперы для работы с различными типами данных.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Collections" isDocumented="True">Классы для работы с коллекциями.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Json.Converters" isDocumented="True">Конвертеры JSON для различных типов данных.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Logging" isDocumented="True">Классы для поддержки журналирования.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Net" isDocumented="True">Классы для поддержки сетевого взаимодействия.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Security" isDocumented="True">Классы, реализующие механизмы безопасности.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="PZone.Web" isDocumented="True">Классы для поддержки веб-взаимодействия.</NamespaceSummaryItem></NamespaceSummaries>
     <RootNamespaceTitle>
     </RootNamespaceTitle>
   </PropertyGroup>

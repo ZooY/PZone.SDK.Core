@@ -59,11 +59,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Formatting\AmountInWordsTest.cs" />
-    <Compile Include="Helpers\NumberHelperTests.cs" />
-    <Compile Include="Helpers\UriHelperTest.cs" />
+    <Compile Include="UriHelperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Web\UnitTest1.cs" />
+    <Compile Include="Web\QueryStringConvertTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PZone.Core\PZone.Core.csproj">

@@ -52,17 +52,6 @@ namespace PZone.Web
             {
                 var stringValue = property.GetValue(value, null).ToString();
                 stringValue = ReplaceCommaToDot(property, stringValue);
-
-                //var converterAttribute = property.GetCustomAttributes(typeof(QueryStringConverterAttribute), true).Cast<QueryStringConverterAttribute>().FirstOrDefault();
-                //if (converterAttribute != null)
-                //{
-                //    var converter = (QueryStringConverter)Activator.CreateInstance(converterAttribute.ConverterType);
-                //   // converter.
-
-                    
-
-                //}
-
                 pairs.Add(property.Name + "=" + HttpUtility.UrlEncode(stringValue));
             }
 

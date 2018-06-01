@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Newtonsoft.Json;
-using PZone.Json;
 
 
 namespace PZone.Logging
@@ -15,8 +11,6 @@ namespace PZone.Logging
         /// <inheritdoc />
         public IInternalLogger InternalLogger { get; }
 
-        /// <inheritdoc />
-        public ILoggerSettings Settings { get; }
 
         /// <summary>
         /// Идентификатор отслеживания.
@@ -27,10 +21,8 @@ namespace PZone.Logging
         /// <summary>
         /// Конструор класса.
         /// </summary>
-        /// <param name="settings">Настройки журналирования.</param>
-        protected LoggerBase(ILoggerSettings settings)
+        protected LoggerBase()
         {
-            Settings = settings;
             CorrelationId = Guid.NewGuid();
             InternalLogger = new ListInternalLogger(this);
         }
@@ -39,7 +31,7 @@ namespace PZone.Logging
         /// <inheritdoc />
         public void Debug(string message)
         {
-            Debug(message, null);
+            WriteToLog(LogLevel.Debug, message, null, null);
         }
 
 
@@ -53,7 +45,7 @@ namespace PZone.Logging
         /// <inheritdoc />
         public void Info(string message)
         {
-            Info(message, null);
+            WriteToLog(LogLevel.Info, message, null, null);
         }
 
 
@@ -67,28 +59,28 @@ namespace PZone.Logging
         /// <inheritdoc />
         public void Warn(string message)
         {
-            Warn(message, null);
+            WriteToLog(LogLevel.Warn, message, null, null);
         }
 
 
         /// <inheritdoc />
         public void Warn(Exception exception)
         {
-            Warn(exception.Message, null, null);
+            WriteToLog(LogLevel.Warn, exception.Message, null, exception);
         }
 
 
         /// <inheritdoc />
         public void Warn(string message, object data)
         {
-            Warn(message, data, null);
+            WriteToLog(LogLevel.Warn, message, data, null);
         }
 
 
         /// <inheritdoc />
         public void Warn(string message, Exception exception)
         {
-            Warn(message, null, exception);
+            WriteToLog(LogLevel.Warn, message, null, exception);
         }
 
 
@@ -102,28 +94,28 @@ namespace PZone.Logging
         /// <inheritdoc />
         public void Error(string message)
         {
-            Error(message, null, null);
+            WriteToLog(LogLevel.Error, message, null, null);
         }
 
 
         /// <inheritdoc />
         public void Error(Exception exception)
         {
-            Error(exception.Message, null, exception);
+            WriteToLog(LogLevel.Error, exception.Message, null, exception);
         }
 
 
         /// <inheritdoc />
         public void Error(string message, object data)
         {
-            Error(message, data, null);
+            WriteToLog(LogLevel.Error, message, data, null);
         }
 
 
         /// <inheritdoc />
         public void Error(string message, Exception exception)
         {
-            Error(exception.Message, null, exception);
+            WriteToLog(LogLevel.Error, message, null, exception);
         }
 
 
@@ -137,28 +129,28 @@ namespace PZone.Logging
         /// <inheritdoc />
         public void Fatal(string message)
         {
-            Fatal(message, null, null);
+            WriteToLog(LogLevel.Fatal, message, null, null);
         }
 
 
         /// <inheritdoc />
         public void Fatal(Exception exception)
         {
-            Fatal(exception.Message, null, exception);
+            WriteToLog(LogLevel.Fatal, exception.Message, null, exception);
         }
 
 
         /// <inheritdoc />
         public void Fatal(string message, object data)
         {
-            Fatal(message, data, null);
+            WriteToLog(LogLevel.Fatal, message, data, null);
         }
 
 
         /// <inheritdoc />
         public void Fatal(string message, Exception exception)
         {
-            Fatal(message, null, exception);
+            WriteToLog(LogLevel.Fatal, message, null, exception);
         }
 
 

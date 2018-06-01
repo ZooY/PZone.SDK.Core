@@ -38,7 +38,6 @@
     <AssemblyOriginatorKeyFile>PZone.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -48,11 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\IDictionaryExtensions.cs" />
-    <Compile Include="Json\WebExceptionConverter.cs" />
+    <Compile Include="Json\Converters\NameValueCollectionConverter.cs" />
+    <Compile Include="Json\Converters\WebExceptionConverter.cs" />
     <Compile Include="Logging\IInternalLogger.cs" />
     <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\ILoggerConfiguration.cs" />
     <Compile Include="Logging\ILoggerConfigurator.cs" />
-    <Compile Include="Logging\ILoggerSettings.cs" />
     <Compile Include="Logging\ListInternalLogger.cs" />
     <Compile Include="Logging\LoggerBase.cs" />
     <Compile Include="Logging\LoggerSettings.cs" />
@@ -63,8 +63,6 @@
     <Compile Include="Security\MD5.cs" />
     <Compile Include="TimeUnit.cs" />
     <Compile Include="Web\QueryStringConvert.cs" />
-    <Compile Include="Web\QueryStringConverter.cs" />
-    <Compile Include="Web\QueryStringConverterAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
