@@ -1,88 +1,141 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="f723e2b2-3e1d-487b-b1b9-b2b9671759d1" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="798004e3-836c-45fc-8b5c-a8b4fb22010d" Title="PZone" Url="html/N_PZone.htm">
+  <HelpTOCNode Id="008fb980-d14c-469b-b4da-0dbdc4f9d427" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="186f85fb-0e69-4927-b4ae-3f358cd07d82" Title="PZone" Url="html/N_PZone.htm">
+      <HelpTOCNode Id="fae868d7-a2a5-4b5b-b5ae-166771af023b" Title="CommandLineConvert - класс" Url="html/T_PZone_CommandLineConvert.htm">
+        <HelpTOCNode Title="CommandLineConvert - конструктор" Url="html/M_PZone_CommandLineConvert__ctor.htm" />
+        <HelpTOCNode Id="a0bd1322-318c-4f29-a2ca-3ef7b6937495" Title="CommandLineConvert - методы" Url="html/Methods_T_PZone_CommandLineConvert.htm">
+          <HelpTOCNode Id="7a8dc55e-0d91-4a7a-b5ac-4192f0ec3d69" Title="DeserializeObject - метод" Url="html/Overload_PZone_CommandLineConvert_DeserializeObject.htm">
+            <HelpTOCNode Title="DeserializeObject(T)(IEnumerable(String)) - метод" Url="html/M_PZone_CommandLineConvert_DeserializeObject__1.htm" />
+            <HelpTOCNode Title="DeserializeObject(T)(String) - метод" Url="html/M_PZone_CommandLineConvert_DeserializeObject__1_2.htm" />
+            <HelpTOCNode Title="DeserializeObject(T)(IEnumerable(String), CommandLineSerializerSettings) - метод" Url="html/M_PZone_CommandLineConvert_DeserializeObject__1_1.htm" />
+            <HelpTOCNode Title="DeserializeObject(T)(String, CommandLineSerializerSettings) - метод" Url="html/M_PZone_CommandLineConvert_DeserializeObject__1_3.htm" />
+            <HelpTOCNode Title="DeserializeObject(IEnumerable(String), Type, CommandLineSerializerSettings) - метод" Url="html/M_PZone_CommandLineConvert_DeserializeObject.htm" />
+            <HelpTOCNode Title="DeserializeObject(String, Type, CommandLineSerializerSettings) - метод" Url="html/M_PZone_CommandLineConvert_DeserializeObject_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="050ec6a5-0f07-4443-aa5d-76c1e2cfff12" Title="CommandLinePropertyAttribute - класс" Url="html/T_PZone_CommandLinePropertyAttribute.htm">
+        <HelpTOCNode Id="b8831d73-fb35-426a-8065-82885634e516" Title="CommandLinePropertyAttribute - конструктор" Url="html/Overload_PZone_CommandLinePropertyAttribute__ctor.htm">
+          <HelpTOCNode Title="CommandLinePropertyAttribute - конструктор" Url="html/M_PZone_CommandLinePropertyAttribute__ctor.htm" />
+          <HelpTOCNode Title="CommandLinePropertyAttribute(String) - конструктор" Url="html/M_PZone_CommandLinePropertyAttribute__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0bd294c7-1ac7-423d-b8cc-f7335c234162" Title="CommandLinePropertyAttribute - свойства" Url="html/Properties_T_PZone_CommandLinePropertyAttribute.htm">
+          <HelpTOCNode Title="PropertyName - свойство" Url="html/P_PZone_CommandLinePropertyAttribute_PropertyName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CommandLinePropertyAttribute - методы" Url="html/Methods_T_PZone_CommandLinePropertyAttribute.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fa77092b-1049-4e23-b564-388fe30585dd" Title="CommandLineSerializer - класс" Url="html/T_PZone_CommandLineSerializer.htm">
+        <HelpTOCNode Id="01677e8f-df36-4673-a7fe-28ded4f2dd4c" Title="CommandLineSerializer - конструктор" Url="html/Overload_PZone_CommandLineSerializer__ctor.htm">
+          <HelpTOCNode Title="CommandLineSerializer - конструктор" Url="html/M_PZone_CommandLineSerializer__ctor.htm" />
+          <HelpTOCNode Title="CommandLineSerializer(CommandLineSerializerSettings) - конструктор" Url="html/M_PZone_CommandLineSerializer__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1d465cc9-c737-441e-b69b-ca6818be9413" Title="CommandLineSerializer - свойства" Url="html/Properties_T_PZone_CommandLineSerializer.htm">
+          <HelpTOCNode Title="Settings - свойство" Url="html/P_PZone_CommandLineSerializer_Settings.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6dbbb45c-bf81-458a-b0d5-d0f1013da8d8" Title="CommandLineSerializer - методы" Url="html/Methods_T_PZone_CommandLineSerializer.htm">
+          <HelpTOCNode Id="69c9fab5-409a-48fc-bb40-ecd2321b9d79" Title="Deserialize - метод" Url="html/Overload_PZone_CommandLineSerializer_Deserialize.htm">
+            <HelpTOCNode Title="Deserialize(IEnumerable(String), Type) - метод" Url="html/M_PZone_CommandLineSerializer_Deserialize.htm" />
+            <HelpTOCNode Title="Deserialize(String, Type) - метод" Url="html/M_PZone_CommandLineSerializer_Deserialize_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="52ffff9b-6a4a-4a8e-b099-4d99d4514d2b" Title="CommandLineSerializerErrorEventArgs - класс" Url="html/T_PZone_CommandLineSerializerErrorEventArgs.htm">
+        <HelpTOCNode Title="CommandLineSerializerErrorEventArgs - конструктор" Url="html/M_PZone_CommandLineSerializerErrorEventArgs__ctor.htm" />
+        <HelpTOCNode Id="ca29792b-3d49-4609-8d32-b5c7d6191cc1" Title="CommandLineSerializerErrorEventArgs - свойства" Url="html/Properties_T_PZone_CommandLineSerializerErrorEventArgs.htm">
+          <HelpTOCNode Title="Error - свойство" Url="html/P_PZone_CommandLineSerializerErrorEventArgs_Error.htm" />
+          <HelpTOCNode Title="Handled - свойство" Url="html/P_PZone_CommandLineSerializerErrorEventArgs_Handled.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CommandLineSerializerErrorEventArgs - методы" Url="html/Methods_T_PZone_CommandLineSerializerErrorEventArgs.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="83103d82-fb40-4078-b261-e4ffa2e0bce7" Title="CommandLineSerializerSettings - класс" Url="html/T_PZone_CommandLineSerializerSettings.htm">
+        <HelpTOCNode Title="CommandLineSerializerSettings - конструктор" Url="html/M_PZone_CommandLineSerializerSettings__ctor.htm" />
+        <HelpTOCNode Id="7901572f-351c-4295-93f6-2fc82607cc4d" Title="CommandLineSerializerSettings - свойства" Url="html/Properties_T_PZone_CommandLineSerializerSettings.htm">
+          <HelpTOCNode Title="Error - свойство" Url="html/P_PZone_CommandLineSerializerSettings_Error.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CommandLineSerializerSettings - методы" Url="html/Methods_T_PZone_CommandLineSerializerSettings.htm" />
+      </HelpTOCNode>
       <HelpTOCNode Title="TimeUnit - перечисление" Url="html/T_PZone_TimeUnit.htm" />
-      <HelpTOCNode Id="5dfe514b-78fc-49df-8fc6-cbe1518f68cf" Title="UriHelper - класс" Url="html/T_PZone_UriHelper.htm">
-        <HelpTOCNode Id="07e3815d-fb83-4e66-bcfc-b16c242b9a33" Title="UriHelper - методы" Url="html/Methods_T_PZone_UriHelper.htm">
+      <HelpTOCNode Id="bf693677-b594-4c11-990a-9b5000af4df6" Title="UriHelper - класс" Url="html/T_PZone_UriHelper.htm">
+        <HelpTOCNode Id="63baaba9-564a-4246-a8f4-bbbddc917bf4" Title="UriHelper - методы" Url="html/Methods_T_PZone_UriHelper.htm">
           <HelpTOCNode Title="AppendParameters - метод" Url="html/M_PZone_UriHelper_AppendParameters.htm" />
           <HelpTOCNode Title="Combine - метод" Url="html/M_PZone_UriHelper_Combine.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="6d5fe458-202b-4389-810d-40708302f46a" Title="PZone.Collections" Url="html/N_PZone_Collections.htm">
-      <HelpTOCNode Id="4b2c36e9-6981-4a0d-aac4-d3974dd232d2" Title="IDictionaryExtensions - класс" Url="html/T_PZone_Collections_IDictionaryExtensions.htm">
-        <HelpTOCNode Id="97eb08fa-ebae-4b8a-ad7b-7e0ca8549f8b" Title="IDictionaryExtensions - методы" Url="html/Methods_T_PZone_Collections_IDictionaryExtensions.htm">
-          <HelpTOCNode Id="df53e082-57a2-404c-a63a-5303de27712d" Title="Upsert - метод" Url="html/Overload_PZone_Collections_IDictionaryExtensions_Upsert.htm">
+    <HelpTOCNode Id="b2cd0e88-2e30-4ba9-878e-303bd4b15021" Title="PZone.Collections" Url="html/N_PZone_Collections.htm">
+      <HelpTOCNode Id="62aedfc7-c477-4058-a7ec-ba005cd6ba8d" Title="IDictionaryExtensions - класс" Url="html/T_PZone_Collections_IDictionaryExtensions.htm">
+        <HelpTOCNode Id="d31a3043-250a-4166-a8cf-d28e839f8479" Title="IDictionaryExtensions - методы" Url="html/Methods_T_PZone_Collections_IDictionaryExtensions.htm">
+          <HelpTOCNode Id="ba9992ea-1836-48b6-aa9f-4dfa78069b0d" Title="Upsert - метод" Url="html/Overload_PZone_Collections_IDictionaryExtensions_Upsert.htm">
             <HelpTOCNode Title="Upsert(TKey, TValue)(IDictionary(TKey, TValue), KeyValuePair(TKey, TValue)) - метод" Url="html/M_PZone_Collections_IDictionaryExtensions_Upsert__2.htm" />
             <HelpTOCNode Title="Upsert(TKey, TValue)(IDictionary(TKey, TValue), TKey, TValue) - метод" Url="html/M_PZone_Collections_IDictionaryExtensions_Upsert__2_1.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="23dfaa0c-77c7-4765-9728-c3d34dc933ea" Title="PZone.Json.Converters" Url="html/N_PZone_Json_Converters.htm">
-      <HelpTOCNode Id="d8ab7bd4-354e-4f6f-8537-8593f819452e" Title="NameValueCollectionConverter - класс" Url="html/T_PZone_Json_Converters_NameValueCollectionConverter.htm">
+    <HelpTOCNode Id="7c3ef71e-24dd-4458-b02f-09309246cfed" Title="PZone.Json.Converters" Url="html/N_PZone_Json_Converters.htm">
+      <HelpTOCNode Id="16633f22-3ce1-4dd5-8f08-692d36f2e6a1" Title="NameValueCollectionConverter - класс" Url="html/T_PZone_Json_Converters_NameValueCollectionConverter.htm">
         <HelpTOCNode Title="NameValueCollectionConverter - конструктор" Url="html/M_PZone_Json_Converters_NameValueCollectionConverter__ctor.htm" />
-        <HelpTOCNode Id="808f0bf6-4efa-4fbe-8fd7-82acefb55e08" Title="NameValueCollectionConverter - свойства" Url="html/Properties_T_PZone_Json_Converters_NameValueCollectionConverter.htm">
+        <HelpTOCNode Id="30503774-c15f-4335-9ae3-af27dd41fb25" Title="NameValueCollectionConverter - свойства" Url="html/Properties_T_PZone_Json_Converters_NameValueCollectionConverter.htm">
           <HelpTOCNode Title="CanRead - свойство" Url="html/P_PZone_Json_Converters_NameValueCollectionConverter_CanRead.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="dbe28da7-a994-4636-bfda-591fda12c495" Title="NameValueCollectionConverter - методы" Url="html/Methods_T_PZone_Json_Converters_NameValueCollectionConverter.htm">
+        <HelpTOCNode Id="ee024598-8390-4e5e-b88a-64b277a7b2aa" Title="NameValueCollectionConverter - методы" Url="html/Methods_T_PZone_Json_Converters_NameValueCollectionConverter.htm">
           <HelpTOCNode Title="CanConvert - метод" Url="html/M_PZone_Json_Converters_NameValueCollectionConverter_CanConvert.htm" />
           <HelpTOCNode Title="ReadJson - метод" Url="html/M_PZone_Json_Converters_NameValueCollectionConverter_ReadJson.htm" />
           <HelpTOCNode Title="WriteJson - метод" Url="html/M_PZone_Json_Converters_NameValueCollectionConverter_WriteJson.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="23103f26-e8a6-4eea-9abb-8a55668b8abc" Title="WebExceptionConverter - класс" Url="html/T_PZone_Json_Converters_WebExceptionConverter.htm">
+      <HelpTOCNode Id="b38cd7db-c7f1-450e-8b82-a614da516b08" Title="WebExceptionConverter - класс" Url="html/T_PZone_Json_Converters_WebExceptionConverter.htm">
         <HelpTOCNode Title="WebExceptionConverter - конструктор" Url="html/M_PZone_Json_Converters_WebExceptionConverter__ctor.htm" />
         <HelpTOCNode Title="WebExceptionConverter - свойства" Url="html/Properties_T_PZone_Json_Converters_WebExceptionConverter.htm" />
-        <HelpTOCNode Id="eedecc75-a278-4a06-ad82-9df8c407e2fb" Title="WebExceptionConverter - методы" Url="html/Methods_T_PZone_Json_Converters_WebExceptionConverter.htm">
+        <HelpTOCNode Id="3e9513eb-ebab-4dc8-ab56-5839f8173b2c" Title="WebExceptionConverter - методы" Url="html/Methods_T_PZone_Json_Converters_WebExceptionConverter.htm">
           <HelpTOCNode Title="CanConvert - метод" Url="html/M_PZone_Json_Converters_WebExceptionConverter_CanConvert.htm" />
           <HelpTOCNode Title="ReadJson - метод" Url="html/M_PZone_Json_Converters_WebExceptionConverter_ReadJson.htm" />
           <HelpTOCNode Title="WriteJson - метод" Url="html/M_PZone_Json_Converters_WebExceptionConverter_WriteJson.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="20d5d1dd-43d4-4a08-8dae-2c1559c49bbd" Title="PZone.Logging" Url="html/N_PZone_Logging.htm">
-      <HelpTOCNode Id="dca21915-2815-4957-ba3b-9d622718a4f8" Title="IInternalLogger - интерфейс" Url="html/T_PZone_Logging_IInternalLogger.htm">
-        <HelpTOCNode Id="2c4c64dc-eef5-4137-939a-c6df2fcdb78d" Title="IInternalLogger - свойства" Url="html/Properties_T_PZone_Logging_IInternalLogger.htm">
+    <HelpTOCNode Id="7feae086-e319-4675-873d-e99ff72538a8" Title="PZone.Logging" Url="html/N_PZone_Logging.htm">
+      <HelpTOCNode Id="670be77f-76f8-43c5-ace0-98249e887c7c" Title="IInternalLogger - интерфейс" Url="html/T_PZone_Logging_IInternalLogger.htm">
+        <HelpTOCNode Id="8c76d316-67fb-4b85-bdce-4215e6ac4987" Title="IInternalLogger - свойства" Url="html/Properties_T_PZone_Logging_IInternalLogger.htm">
           <HelpTOCNode Title="IsEnabled - свойство" Url="html/P_PZone_Logging_IInternalLogger_IsEnabled.htm" />
           <HelpTOCNode Title="Messages - свойство" Url="html/P_PZone_Logging_IInternalLogger_Messages.htm" />
           <HelpTOCNode Title="ParentLogger - свойство" Url="html/P_PZone_Logging_IInternalLogger_ParentLogger.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="fb647f11-4df8-48cf-8672-3e97955309ac" Title="IInternalLogger - методы" Url="html/Methods_T_PZone_Logging_IInternalLogger.htm">
+        <HelpTOCNode Id="52a3a339-0830-4431-b796-765eb41632a8" Title="IInternalLogger - методы" Url="html/Methods_T_PZone_Logging_IInternalLogger.htm">
           <HelpTOCNode Title="Log - метод" Url="html/M_PZone_Logging_IInternalLogger_Log.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c0a9cc11-3bee-441f-8206-4c1a7a40a094" Title="ILogger - интерфейс" Url="html/T_PZone_Logging_ILogger.htm">
-        <HelpTOCNode Id="60423b1c-bfb1-4b13-b5a6-bed637f3a56c" Title="ILogger - свойства" Url="html/Properties_T_PZone_Logging_ILogger.htm">
+      <HelpTOCNode Id="9f8e9689-2cff-496c-904d-e87069a75916" Title="ILogger - интерфейс" Url="html/T_PZone_Logging_ILogger.htm">
+        <HelpTOCNode Id="cd16f38d-f07a-4505-ad23-ebb247ec7718" Title="ILogger - свойства" Url="html/Properties_T_PZone_Logging_ILogger.htm">
           <HelpTOCNode Title="CorrelationId - свойство" Url="html/P_PZone_Logging_ILogger_CorrelationId.htm" />
           <HelpTOCNode Title="InternalLogger - свойство" Url="html/P_PZone_Logging_ILogger_InternalLogger.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="8fcb7bfe-c6eb-4c78-8ac3-210d040a699d" Title="ILogger - методы" Url="html/Methods_T_PZone_Logging_ILogger.htm">
-          <HelpTOCNode Id="c25eb853-8ada-4de3-8a4d-a06e3ddf48d0" Title="Debug - метод" Url="html/Overload_PZone_Logging_ILogger_Debug.htm">
+        <HelpTOCNode Id="cc242c1d-9c5a-4f9a-a6b2-151f49b00164" Title="ILogger - методы" Url="html/Methods_T_PZone_Logging_ILogger.htm">
+          <HelpTOCNode Id="b548482b-f179-4e19-a875-5942233056e8" Title="Debug - метод" Url="html/Overload_PZone_Logging_ILogger_Debug.htm">
             <HelpTOCNode Title="Debug(String) - метод" Url="html/M_PZone_Logging_ILogger_Debug.htm" />
             <HelpTOCNode Title="Debug(String, Object) - метод" Url="html/M_PZone_Logging_ILogger_Debug_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="39650fa9-295f-4478-8963-1b0b5b484015" Title="Error - метод" Url="html/Overload_PZone_Logging_ILogger_Error.htm">
+          <HelpTOCNode Id="d02150fe-a690-4e1b-a404-f2eb37bc82f8" Title="Error - метод" Url="html/Overload_PZone_Logging_ILogger_Error.htm">
             <HelpTOCNode Title="Error(Exception) - метод" Url="html/M_PZone_Logging_ILogger_Error.htm" />
             <HelpTOCNode Title="Error(String) - метод" Url="html/M_PZone_Logging_ILogger_Error_1.htm" />
             <HelpTOCNode Title="Error(String, Exception) - метод" Url="html/M_PZone_Logging_ILogger_Error_2.htm" />
             <HelpTOCNode Title="Error(String, Object) - метод" Url="html/M_PZone_Logging_ILogger_Error_3.htm" />
             <HelpTOCNode Title="Error(String, Object, Exception) - метод" Url="html/M_PZone_Logging_ILogger_Error_4.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="36daaa66-cad7-425d-bb5e-2ef30ba86f43" Title="Fatal - метод" Url="html/Overload_PZone_Logging_ILogger_Fatal.htm">
+          <HelpTOCNode Id="a9387add-4331-480a-ad88-2a30f62b0550" Title="Fatal - метод" Url="html/Overload_PZone_Logging_ILogger_Fatal.htm">
             <HelpTOCNode Title="Fatal(Exception) - метод" Url="html/M_PZone_Logging_ILogger_Fatal.htm" />
             <HelpTOCNode Title="Fatal(String) - метод" Url="html/M_PZone_Logging_ILogger_Fatal_1.htm" />
             <HelpTOCNode Title="Fatal(String, Exception) - метод" Url="html/M_PZone_Logging_ILogger_Fatal_2.htm" />
             <HelpTOCNode Title="Fatal(String, Object) - метод" Url="html/M_PZone_Logging_ILogger_Fatal_3.htm" />
             <HelpTOCNode Title="Fatal(String, Object, Exception) - метод" Url="html/M_PZone_Logging_ILogger_Fatal_4.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="a684d99d-0244-4dee-b487-7a9c40926316" Title="Info - метод" Url="html/Overload_PZone_Logging_ILogger_Info.htm">
+          <HelpTOCNode Id="724dac6d-68c0-416c-a164-aeb1065a647b" Title="Info - метод" Url="html/Overload_PZone_Logging_ILogger_Info.htm">
             <HelpTOCNode Title="Info(String) - метод" Url="html/M_PZone_Logging_ILogger_Info.htm" />
             <HelpTOCNode Title="Info(String, Object) - метод" Url="html/M_PZone_Logging_ILogger_Info_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="610651bd-050d-4f26-bbe8-ea351cb36648" Title="Warn - метод" Url="html/Overload_PZone_Logging_ILogger_Warn.htm">
+          <HelpTOCNode Id="6b330fe4-e6c3-40bc-ab0e-aa78ac38d2b0" Title="Warn - метод" Url="html/Overload_PZone_Logging_ILogger_Warn.htm">
             <HelpTOCNode Title="Warn(Exception) - метод" Url="html/M_PZone_Logging_ILogger_Warn.htm" />
             <HelpTOCNode Title="Warn(String) - метод" Url="html/M_PZone_Logging_ILogger_Warn_1.htm" />
             <HelpTOCNode Title="Warn(String, Exception) - метод" Url="html/M_PZone_Logging_ILogger_Warn_2.htm" />
@@ -91,61 +144,61 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="47f43682-9911-4419-be05-588c08923921" Title="ILoggerConfiguration - интерфейс" Url="html/T_PZone_Logging_ILoggerConfiguration.htm">
-        <HelpTOCNode Id="1903e430-3ced-4974-906b-658c3bc5998e" Title="ILoggerConfiguration - свойства" Url="html/Properties_T_PZone_Logging_ILoggerConfiguration.htm">
+      <HelpTOCNode Id="fc0857b6-bf4e-4680-bf93-31ba7a3c9968" Title="ILoggerConfiguration - интерфейс" Url="html/T_PZone_Logging_ILoggerConfiguration.htm">
+        <HelpTOCNode Id="15da3b3b-ff83-4ec4-8728-5bf444cb168b" Title="ILoggerConfiguration - свойства" Url="html/Properties_T_PZone_Logging_ILoggerConfiguration.htm">
           <HelpTOCNode Title="SystemId - свойство" Url="html/P_PZone_Logging_ILoggerConfiguration_SystemId.htm" />
           <HelpTOCNode Title="SystemInstanceId - свойство" Url="html/P_PZone_Logging_ILoggerConfiguration_SystemInstanceId.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="0d55de3d-7b71-4f04-8979-557a5c9bf036" Title="ILoggerConfigurator - интерфейс" Url="html/T_PZone_Logging_ILoggerConfigurator.htm">
-        <HelpTOCNode Id="bd2853e6-a2a9-4c2f-88e7-7e04e31a3d0c" Title="ILoggerConfigurator - свойства" Url="html/Properties_T_PZone_Logging_ILoggerConfigurator.htm">
+      <HelpTOCNode Id="6d74d01b-fe70-4dab-8b60-4e90aeac17a0" Title="ILoggerConfigurator - интерфейс" Url="html/T_PZone_Logging_ILoggerConfigurator.htm">
+        <HelpTOCNode Id="d2d2fdcd-f1aa-41a7-8df0-fd71f569e582" Title="ILoggerConfigurator - свойства" Url="html/Properties_T_PZone_Logging_ILoggerConfigurator.htm">
           <HelpTOCNode Title="Configured - свойство" Url="html/P_PZone_Logging_ILoggerConfigurator_Configured.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="82daf9a5-aa57-495c-9c7a-6bee662e62ce" Title="ILoggerConfigurator - методы" Url="html/Methods_T_PZone_Logging_ILoggerConfigurator.htm">
+        <HelpTOCNode Id="bbd6c066-cc9d-4e9d-baf2-907b25a321d7" Title="ILoggerConfigurator - методы" Url="html/Methods_T_PZone_Logging_ILoggerConfigurator.htm">
           <HelpTOCNode Title="Configure - метод" Url="html/M_PZone_Logging_ILoggerConfigurator_Configure.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="efe2e3e4-6a3c-4a26-be00-26d6df225f58" Title="ListInternalLogger - класс" Url="html/T_PZone_Logging_ListInternalLogger.htm">
+      <HelpTOCNode Id="a0218f96-8907-4b85-abcc-780b6e217709" Title="ListInternalLogger - класс" Url="html/T_PZone_Logging_ListInternalLogger.htm">
         <HelpTOCNode Title="ListInternalLogger - конструктор" Url="html/M_PZone_Logging_ListInternalLogger__ctor.htm" />
-        <HelpTOCNode Id="3e8a6e03-abd4-4dc6-8f8a-c0540172caba" Title="ListInternalLogger - свойства" Url="html/Properties_T_PZone_Logging_ListInternalLogger.htm">
+        <HelpTOCNode Id="7a347381-efd4-4954-ab70-077e7e97f197" Title="ListInternalLogger - свойства" Url="html/Properties_T_PZone_Logging_ListInternalLogger.htm">
           <HelpTOCNode Title="IsEnabled - свойство" Url="html/P_PZone_Logging_ListInternalLogger_IsEnabled.htm" />
           <HelpTOCNode Title="Messages - свойство" Url="html/P_PZone_Logging_ListInternalLogger_Messages.htm" />
           <HelpTOCNode Title="ParentLogger - свойство" Url="html/P_PZone_Logging_ListInternalLogger_ParentLogger.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="cea408ac-d720-493f-b9fe-96d9be70f2cd" Title="ListInternalLogger - методы" Url="html/Methods_T_PZone_Logging_ListInternalLogger.htm">
+        <HelpTOCNode Id="1b45379a-dece-4905-a752-82aa25283afb" Title="ListInternalLogger - методы" Url="html/Methods_T_PZone_Logging_ListInternalLogger.htm">
           <HelpTOCNode Title="Log - метод" Url="html/M_PZone_Logging_ListInternalLogger_Log.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5d565457-299a-4423-91fc-ad8707d2d2e5" Title="LoggerBase - класс" Url="html/T_PZone_Logging_LoggerBase.htm">
+      <HelpTOCNode Id="cce85fe0-0bfd-4783-94f1-792a89cf98c6" Title="LoggerBase - класс" Url="html/T_PZone_Logging_LoggerBase.htm">
         <HelpTOCNode Title="LoggerBase - конструктор" Url="html/M_PZone_Logging_LoggerBase__ctor.htm" />
-        <HelpTOCNode Id="edc0e2ea-5aa0-4812-b9b0-0be1bb6dbeb3" Title="LoggerBase - свойства" Url="html/Properties_T_PZone_Logging_LoggerBase.htm">
+        <HelpTOCNode Id="05952e55-ef37-484f-bfc9-192c9d072132" Title="LoggerBase - свойства" Url="html/Properties_T_PZone_Logging_LoggerBase.htm">
           <HelpTOCNode Title="CorrelationId - свойство" Url="html/P_PZone_Logging_LoggerBase_CorrelationId.htm" />
           <HelpTOCNode Title="InternalLogger - свойство" Url="html/P_PZone_Logging_LoggerBase_InternalLogger.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="39987d61-5e72-4586-9bb7-63f6d488b305" Title="LoggerBase - методы" Url="html/Methods_T_PZone_Logging_LoggerBase.htm">
-          <HelpTOCNode Id="f31286e0-b252-4c3b-878d-46e0a0dc19ab" Title="Debug - метод" Url="html/Overload_PZone_Logging_LoggerBase_Debug.htm">
+        <HelpTOCNode Id="aeef12d6-d541-4fbf-800d-8a2832791316" Title="LoggerBase - методы" Url="html/Methods_T_PZone_Logging_LoggerBase.htm">
+          <HelpTOCNode Id="8befe41a-99e1-4561-982d-d32a7541a1fd" Title="Debug - метод" Url="html/Overload_PZone_Logging_LoggerBase_Debug.htm">
             <HelpTOCNode Title="Debug(String) - метод" Url="html/M_PZone_Logging_LoggerBase_Debug.htm" />
             <HelpTOCNode Title="Debug(String, Object) - метод" Url="html/M_PZone_Logging_LoggerBase_Debug_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="238372c1-3cdb-4be9-b550-809de228a1d8" Title="Error - метод" Url="html/Overload_PZone_Logging_LoggerBase_Error.htm">
+          <HelpTOCNode Id="878002c1-ca8f-4ac7-9dd8-682bf9e25aa6" Title="Error - метод" Url="html/Overload_PZone_Logging_LoggerBase_Error.htm">
             <HelpTOCNode Title="Error(Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Error.htm" />
             <HelpTOCNode Title="Error(String) - метод" Url="html/M_PZone_Logging_LoggerBase_Error_1.htm" />
             <HelpTOCNode Title="Error(String, Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Error_2.htm" />
             <HelpTOCNode Title="Error(String, Object) - метод" Url="html/M_PZone_Logging_LoggerBase_Error_3.htm" />
             <HelpTOCNode Title="Error(String, Object, Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Error_4.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="e00c79c4-b5a4-44a3-b19f-0de0e2d03a8d" Title="Fatal - метод" Url="html/Overload_PZone_Logging_LoggerBase_Fatal.htm">
+          <HelpTOCNode Id="35b8e1c4-2c06-40b9-9afc-0568ef00e839" Title="Fatal - метод" Url="html/Overload_PZone_Logging_LoggerBase_Fatal.htm">
             <HelpTOCNode Title="Fatal(Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Fatal.htm" />
             <HelpTOCNode Title="Fatal(String) - метод" Url="html/M_PZone_Logging_LoggerBase_Fatal_1.htm" />
             <HelpTOCNode Title="Fatal(String, Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Fatal_2.htm" />
             <HelpTOCNode Title="Fatal(String, Object) - метод" Url="html/M_PZone_Logging_LoggerBase_Fatal_3.htm" />
             <HelpTOCNode Title="Fatal(String, Object, Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Fatal_4.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="376254c6-ac28-48b9-99b9-8ae449e072ee" Title="Info - метод" Url="html/Overload_PZone_Logging_LoggerBase_Info.htm">
+          <HelpTOCNode Id="10d8f13c-0b09-4e1b-b737-60ee3bf0ee0e" Title="Info - метод" Url="html/Overload_PZone_Logging_LoggerBase_Info.htm">
             <HelpTOCNode Title="Info(String) - метод" Url="html/M_PZone_Logging_LoggerBase_Info.htm" />
             <HelpTOCNode Title="Info(String, Object) - метод" Url="html/M_PZone_Logging_LoggerBase_Info_1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="6aefcf5a-b2e2-4aff-8c2e-0e7cf7596c44" Title="Warn - метод" Url="html/Overload_PZone_Logging_LoggerBase_Warn.htm">
+          <HelpTOCNode Id="1efc56e0-60a8-4de0-b92c-4955d0c5ba4b" Title="Warn - метод" Url="html/Overload_PZone_Logging_LoggerBase_Warn.htm">
             <HelpTOCNode Title="Warn(Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Warn.htm" />
             <HelpTOCNode Title="Warn(String) - метод" Url="html/M_PZone_Logging_LoggerBase_Warn_1.htm" />
             <HelpTOCNode Title="Warn(String, Exception) - метод" Url="html/M_PZone_Logging_LoggerBase_Warn_2.htm" />
@@ -155,9 +208,9 @@
           <HelpTOCNode Title="WriteToLog - метод" Url="html/M_PZone_Logging_LoggerBase_WriteToLog.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7b6364e4-f942-4d36-afc6-0ba938fa96d8" Title="LoggerConfiguration - класс" Url="html/T_PZone_Logging_LoggerConfiguration.htm">
+      <HelpTOCNode Id="fa6f1dff-2a83-423d-af85-ae3e0fc2f9ae" Title="LoggerConfiguration - класс" Url="html/T_PZone_Logging_LoggerConfiguration.htm">
         <HelpTOCNode Title="LoggerConfiguration - конструктор" Url="html/M_PZone_Logging_LoggerConfiguration__ctor.htm" />
-        <HelpTOCNode Id="d507d8df-22ed-4d5a-bcad-97ea603a7339" Title="LoggerConfiguration - свойства" Url="html/Properties_T_PZone_Logging_LoggerConfiguration.htm">
+        <HelpTOCNode Id="ea81e9b7-8692-426b-9254-fd3e8d553317" Title="LoggerConfiguration - свойства" Url="html/Properties_T_PZone_Logging_LoggerConfiguration.htm">
           <HelpTOCNode Title="SystemId - свойство" Url="html/P_PZone_Logging_LoggerConfiguration_SystemId.htm" />
           <HelpTOCNode Title="SystemInstanceId - свойство" Url="html/P_PZone_Logging_LoggerConfiguration_SystemInstanceId.htm" />
         </HelpTOCNode>
@@ -165,25 +218,25 @@
       </HelpTOCNode>
       <HelpTOCNode Title="LogLevel - перечисление" Url="html/T_PZone_Logging_LogLevel.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e7db1601-073b-4c9d-8843-7ba145ae963a" Title="PZone.Net" Url="html/N_PZone_Net.htm">
-      <HelpTOCNode Id="c655faac-822e-426e-b2bf-cde35ed85d28" Title="WebHeaderCollectionExtensions - класс" Url="html/T_PZone_Net_WebHeaderCollectionExtensions.htm">
-        <HelpTOCNode Id="fb49d867-618a-452a-88bd-a16da4bdf6e3" Title="WebHeaderCollectionExtensions - методы" Url="html/Methods_T_PZone_Net_WebHeaderCollectionExtensions.htm">
+    <HelpTOCNode Id="cb0aecb3-561d-4a41-8a0f-66ef7eacac96" Title="PZone.Net" Url="html/N_PZone_Net.htm">
+      <HelpTOCNode Id="a6efb4c6-3b77-4bb4-bc7f-ea827006a13d" Title="WebHeaderCollectionExtensions - класс" Url="html/T_PZone_Net_WebHeaderCollectionExtensions.htm">
+        <HelpTOCNode Id="e782bd37-a454-413e-9fdb-a91073837dce" Title="WebHeaderCollectionExtensions - методы" Url="html/Methods_T_PZone_Net_WebHeaderCollectionExtensions.htm">
           <HelpTOCNode Title="SetBasicAuthorization - метод" Url="html/M_PZone_Net_WebHeaderCollectionExtensions_SetBasicAuthorization.htm" />
           <HelpTOCNode Title="SetTokenAuthorization - метод" Url="html/M_PZone_Net_WebHeaderCollectionExtensions_SetTokenAuthorization.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="504f42f9-60b4-4717-83a7-184c5b5b7313" Title="PZone.Security" Url="html/N_PZone_Security.htm">
-      <HelpTOCNode Id="e598dc5d-8a99-4665-aaac-927355e449ba" Title="MD5 - класс" Url="html/T_PZone_Security_MD5.htm">
-        <HelpTOCNode Id="581105ed-ce72-42ca-9411-0b21a548fc75" Title="MD5 - методы" Url="html/Methods_T_PZone_Security_MD5.htm">
+    <HelpTOCNode Id="bb6dc6e8-d49f-4ed4-ad85-9d533721d14b" Title="PZone.Security" Url="html/N_PZone_Security.htm">
+      <HelpTOCNode Id="6fa5517a-cbde-4d3b-b8e2-0faff735d610" Title="MD5 - класс" Url="html/T_PZone_Security_MD5.htm">
+        <HelpTOCNode Id="e6ba9e46-dde2-4daa-a8b4-1ad9f9230713" Title="MD5 - методы" Url="html/Methods_T_PZone_Security_MD5.htm">
           <HelpTOCNode Title="HashString - метод" Url="html/M_PZone_Security_MD5_HashString.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="54f37d5d-34a9-421f-be74-06d8773db118" Title="PZone.Web" Url="html/N_PZone_Web.htm">
-      <HelpTOCNode Id="7317a0b5-232b-4074-bbb4-96754e76e9a2" Title="QueryStringConvert - класс" Url="html/T_PZone_Web_QueryStringConvert.htm">
+    <HelpTOCNode Id="fdee57ef-71f6-4572-b70d-0eb21b5db23d" Title="PZone.Web" Url="html/N_PZone_Web.htm">
+      <HelpTOCNode Id="81ddcf3b-f509-475d-88c9-7fa92ad45010" Title="QueryStringConvert - класс" Url="html/T_PZone_Web_QueryStringConvert.htm">
         <HelpTOCNode Title="QueryStringConvert - конструктор" Url="html/M_PZone_Web_QueryStringConvert__ctor.htm" />
-        <HelpTOCNode Id="4be39fd7-df55-4e0f-99f6-8c6a69d74e0e" Title="QueryStringConvert - методы" Url="html/Methods_T_PZone_Web_QueryStringConvert.htm">
+        <HelpTOCNode Id="844cdab8-def1-465a-9456-bfdd7d9b8671" Title="QueryStringConvert - методы" Url="html/Methods_T_PZone_Web_QueryStringConvert.htm">
           <HelpTOCNode Title="SerializeObject - метод" Url="html/M_PZone_Web_QueryStringConvert_SerializeObject.htm" />
         </HelpTOCNode>
       </HelpTOCNode>

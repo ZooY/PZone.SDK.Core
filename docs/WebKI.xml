@@ -8,6 +8,47 @@
   <HelpKINode Title="CanRead свойство" Url="html/P_PZone_Json_Converters_NameValueCollectionConverter_CanRead.htm" />
   <HelpKINode Title="Century - член перечисления" Url="html/T_PZone_TimeUnit.htm" />
   <HelpKINode Title="Combine метод" Url="html/M_PZone_UriHelper_Combine.htm" />
+  <HelpKINode Title="CommandLineConvert - класс">
+    <HelpKINode Title="CommandLineConvert - класс" Url="html/T_PZone_CommandLineConvert.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_CommandLineConvert__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_CommandLineConvert.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandLineConvert.CommandLineConvert конструктор" Url="html/M_PZone_CommandLineConvert__ctor.htm" />
+  <HelpKINode Title="CommandLineConvert.DeserializeObject метод" Url="html/Overload_PZone_CommandLineConvert_DeserializeObject.htm" />
+  <HelpKINode Title="CommandLinePropertyAttribute - класс">
+    <HelpKINode Title="CommandLinePropertyAttribute - класс" Url="html/T_PZone_CommandLinePropertyAttribute.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_CommandLinePropertyAttribute__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_CommandLinePropertyAttribute.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_CommandLinePropertyAttribute.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandLinePropertyAttribute.CommandLinePropertyAttribute конструктор" Url="html/Overload_PZone_CommandLinePropertyAttribute__ctor.htm" />
+  <HelpKINode Title="CommandLinePropertyAttribute.PropertyName свойство" Url="html/P_PZone_CommandLinePropertyAttribute_PropertyName.htm" />
+  <HelpKINode Title="CommandLineSerializer - класс">
+    <HelpKINode Title="CommandLineSerializer - класс" Url="html/T_PZone_CommandLineSerializer.htm" />
+    <HelpKINode Title="конструктор" Url="html/Overload_PZone_CommandLineSerializer__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_CommandLineSerializer.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_CommandLineSerializer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandLineSerializer.CommandLineSerializer конструктор" Url="html/Overload_PZone_CommandLineSerializer__ctor.htm" />
+  <HelpKINode Title="CommandLineSerializer.Deserialize метод" Url="html/Overload_PZone_CommandLineSerializer_Deserialize.htm" />
+  <HelpKINode Title="CommandLineSerializer.Settings свойство" Url="html/P_PZone_CommandLineSerializer_Settings.htm" />
+  <HelpKINode Title="CommandLineSerializerErrorEventArgs - класс">
+    <HelpKINode Title="CommandLineSerializerErrorEventArgs - класс" Url="html/T_PZone_CommandLineSerializerErrorEventArgs.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_CommandLineSerializerErrorEventArgs__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_CommandLineSerializerErrorEventArgs.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_CommandLineSerializerErrorEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandLineSerializerErrorEventArgs.CommandLineSerializerErrorEventArgs конструктор" Url="html/M_PZone_CommandLineSerializerErrorEventArgs__ctor.htm" />
+  <HelpKINode Title="CommandLineSerializerErrorEventArgs.Error свойство" Url="html/P_PZone_CommandLineSerializerErrorEventArgs_Error.htm" />
+  <HelpKINode Title="CommandLineSerializerErrorEventArgs.Handled свойство" Url="html/P_PZone_CommandLineSerializerErrorEventArgs_Handled.htm" />
+  <HelpKINode Title="CommandLineSerializerSettings - класс">
+    <HelpKINode Title="CommandLineSerializerSettings - класс" Url="html/T_PZone_CommandLineSerializerSettings.htm" />
+    <HelpKINode Title="конструктор" Url="html/M_PZone_CommandLineSerializerSettings__ctor.htm" />
+    <HelpKINode Title="методы" Url="html/Methods_T_PZone_CommandLineSerializerSettings.htm" />
+    <HelpKINode Title="свойства" Url="html/Properties_T_PZone_CommandLineSerializerSettings.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommandLineSerializerSettings.CommandLineSerializerSettings конструктор" Url="html/M_PZone_CommandLineSerializerSettings__ctor.htm" />
+  <HelpKINode Title="CommandLineSerializerSettings.Error свойство" Url="html/P_PZone_CommandLineSerializerSettings_Error.htm" />
   <HelpKINode Title="Configure метод" Url="html/M_PZone_Logging_ILoggerConfigurator_Configure.htm" />
   <HelpKINode Title="Configured свойство" Url="html/P_PZone_Logging_ILoggerConfigurator_Configured.htm" />
   <HelpKINode Title="CorrelationId свойство">
@@ -20,28 +61,33 @@
     <HelpKINode Title="ILogger.Debug - метод" Url="html/Overload_PZone_Logging_ILogger_Debug.htm" />
     <HelpKINode Title="LoggerBase.Debug - метод" Url="html/Overload_PZone_Logging_LoggerBase_Debug.htm" />
   </HelpKINode>
+  <HelpKINode Title="Deserialize метод" Url="html/Overload_PZone_CommandLineSerializer_Deserialize.htm" />
+  <HelpKINode Title="DeserializeObject метод" Url="html/Overload_PZone_CommandLineConvert_DeserializeObject.htm" />
   <HelpKINode Title="Error - член перечисления" Url="html/T_PZone_Logging_LogLevel.htm" />
   <HelpKINode Title="Error метод">
     <HelpKINode Title="ILogger.Error - метод" Url="html/Overload_PZone_Logging_ILogger_Error.htm" />
     <HelpKINode Title="LoggerBase.Error - метод" Url="html/Overload_PZone_Logging_LoggerBase_Error.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Error свойство">
+    <HelpKINode Title="CommandLineSerializerErrorEventArgs.Error - свойство" Url="html/P_PZone_CommandLineSerializerErrorEventArgs_Error.htm" />
+    <HelpKINode Title="CommandLineSerializerSettings.Error - свойство" Url="html/P_PZone_CommandLineSerializerSettings_Error.htm" />
   </HelpKINode>
   <HelpKINode Title="Fatal - член перечисления" Url="html/T_PZone_Logging_LogLevel.htm" />
   <HelpKINode Title="Fatal метод">
     <HelpKINode Title="ILogger.Fatal - метод" Url="html/Overload_PZone_Logging_ILogger_Fatal.htm" />
     <HelpKINode Title="LoggerBase.Fatal - метод" Url="html/Overload_PZone_Logging_LoggerBase_Fatal.htm" />
   </HelpKINode>
+  <HelpKINode Title="Handled свойство" Url="html/P_PZone_CommandLineSerializerErrorEventArgs_Handled.htm" />
   <HelpKINode Title="HashString метод" Url="html/M_PZone_Security_MD5_HashString.htm" />
   <HelpKINode Title="Hour - член перечисления" Url="html/T_PZone_TimeUnit.htm" />
   <HelpKINode Title="IDictionaryExtensions - класс">
     <HelpKINode Title="IDictionaryExtensions - класс" Url="html/T_PZone_Collections_IDictionaryExtensions.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Collections_IDictionaryExtensions.htm" />
-    <HelpKINode Title="о IDictionaryExtensions - класс" Url="html/T_PZone_Collections_IDictionaryExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="IDictionaryExtensions.Upsert метод" Url="html/Overload_PZone_Collections_IDictionaryExtensions_Upsert.htm" />
   <HelpKINode Title="IInternalLogger - интерфейс">
     <HelpKINode Title="IInternalLogger - интерфейс" Url="html/T_PZone_Logging_IInternalLogger.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Logging_IInternalLogger.htm" />
-    <HelpKINode Title="о IInternalLogger - интерфейс" Url="html/T_PZone_Logging_IInternalLogger.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_IInternalLogger.htm" />
   </HelpKINode>
   <HelpKINode Title="IInternalLogger.IsEnabled свойство" Url="html/P_PZone_Logging_IInternalLogger_IsEnabled.htm" />
@@ -51,7 +97,6 @@
   <HelpKINode Title="ILogger - интерфейс">
     <HelpKINode Title="ILogger - интерфейс" Url="html/T_PZone_Logging_ILogger.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Logging_ILogger.htm" />
-    <HelpKINode Title="о ILogger - интерфейс" Url="html/T_PZone_Logging_ILogger.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_ILogger.htm" />
   </HelpKINode>
   <HelpKINode Title="ILogger.CorrelationId свойство" Url="html/P_PZone_Logging_ILogger_CorrelationId.htm" />
@@ -63,7 +108,6 @@
   <HelpKINode Title="ILogger.Warn метод" Url="html/Overload_PZone_Logging_ILogger_Warn.htm" />
   <HelpKINode Title="ILoggerConfiguration - интерфейс">
     <HelpKINode Title="ILoggerConfiguration - интерфейс" Url="html/T_PZone_Logging_ILoggerConfiguration.htm" />
-    <HelpKINode Title="о ILoggerConfiguration - интерфейс" Url="html/T_PZone_Logging_ILoggerConfiguration.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_ILoggerConfiguration.htm" />
   </HelpKINode>
   <HelpKINode Title="ILoggerConfiguration.SystemId свойство" Url="html/P_PZone_Logging_ILoggerConfiguration_SystemId.htm" />
@@ -71,7 +115,6 @@
   <HelpKINode Title="ILoggerConfigurator - интерфейс">
     <HelpKINode Title="ILoggerConfigurator - интерфейс" Url="html/T_PZone_Logging_ILoggerConfigurator.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Logging_ILoggerConfigurator.htm" />
-    <HelpKINode Title="о ILoggerConfigurator - интерфейс" Url="html/T_PZone_Logging_ILoggerConfigurator.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_ILoggerConfigurator.htm" />
   </HelpKINode>
   <HelpKINode Title="ILoggerConfigurator.Configure метод" Url="html/M_PZone_Logging_ILoggerConfigurator_Configure.htm" />
@@ -93,7 +136,6 @@
     <HelpKINode Title="ListInternalLogger - класс" Url="html/T_PZone_Logging_ListInternalLogger.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Logging_ListInternalLogger__ctor.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Logging_ListInternalLogger.htm" />
-    <HelpKINode Title="о ListInternalLogger - класс" Url="html/T_PZone_Logging_ListInternalLogger.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_ListInternalLogger.htm" />
   </HelpKINode>
   <HelpKINode Title="ListInternalLogger.IsEnabled свойство" Url="html/P_PZone_Logging_ListInternalLogger_IsEnabled.htm" />
@@ -109,7 +151,6 @@
     <HelpKINode Title="LoggerBase - класс" Url="html/T_PZone_Logging_LoggerBase.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Logging_LoggerBase__ctor.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Logging_LoggerBase.htm" />
-    <HelpKINode Title="о LoggerBase - класс" Url="html/T_PZone_Logging_LoggerBase.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_LoggerBase.htm" />
   </HelpKINode>
   <HelpKINode Title="LoggerBase.CorrelationId свойство" Url="html/P_PZone_Logging_LoggerBase_CorrelationId.htm" />
@@ -125,7 +166,6 @@
     <HelpKINode Title="LoggerConfiguration - класс" Url="html/T_PZone_Logging_LoggerConfiguration.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Logging_LoggerConfiguration__ctor.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Logging_LoggerConfiguration.htm" />
-    <HelpKINode Title="о LoggerConfiguration - класс" Url="html/T_PZone_Logging_LoggerConfiguration.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Logging_LoggerConfiguration.htm" />
   </HelpKINode>
   <HelpKINode Title="LoggerConfiguration.LoggerConfiguration конструктор" Url="html/M_PZone_Logging_LoggerConfiguration__ctor.htm" />
@@ -135,7 +175,6 @@
   <HelpKINode Title="MD5 - класс">
     <HelpKINode Title="MD5 - класс" Url="html/T_PZone_Security_MD5.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Security_MD5.htm" />
-    <HelpKINode Title="о MD5 - класс" Url="html/T_PZone_Security_MD5.htm" />
   </HelpKINode>
   <HelpKINode Title="MD5.HashString метод" Url="html/M_PZone_Security_MD5_HashString.htm" />
   <HelpKINode Title="Messages свойство">
@@ -149,7 +188,6 @@
     <HelpKINode Title="NameValueCollectionConverter - класс" Url="html/T_PZone_Json_Converters_NameValueCollectionConverter.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Json_Converters_NameValueCollectionConverter__ctor.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Json_Converters_NameValueCollectionConverter.htm" />
-    <HelpKINode Title="о NameValueCollectionConverter - класс" Url="html/T_PZone_Json_Converters_NameValueCollectionConverter.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Json_Converters_NameValueCollectionConverter.htm" />
   </HelpKINode>
   <HelpKINode Title="NameValueCollectionConverter.CanConvert метод" Url="html/M_PZone_Json_Converters_NameValueCollectionConverter_CanConvert.htm" />
@@ -162,9 +200,15 @@
     <HelpKINode Title="IInternalLogger.ParentLogger - свойство" Url="html/P_PZone_Logging_IInternalLogger_ParentLogger.htm" />
     <HelpKINode Title="ListInternalLogger.ParentLogger - свойство" Url="html/P_PZone_Logging_ListInternalLogger_ParentLogger.htm" />
   </HelpKINode>
+  <HelpKINode Title="PropertyName свойство" Url="html/P_PZone_CommandLinePropertyAttribute_PropertyName.htm" />
   <HelpKINode Title="PZone - пространство имён" Url="html/N_PZone.htm" />
   <HelpKINode Title="PZone.Collections - пространство имён" Url="html/N_PZone_Collections.htm" />
   <HelpKINode Title="PZone.Collections.IDictionaryExtensions - класс" Url="html/T_PZone_Collections_IDictionaryExtensions.htm" />
+  <HelpKINode Title="PZone.CommandLineConvert - класс" Url="html/T_PZone_CommandLineConvert.htm" />
+  <HelpKINode Title="PZone.CommandLinePropertyAttribute - класс" Url="html/T_PZone_CommandLinePropertyAttribute.htm" />
+  <HelpKINode Title="PZone.CommandLineSerializer - класс" Url="html/T_PZone_CommandLineSerializer.htm" />
+  <HelpKINode Title="PZone.CommandLineSerializerErrorEventArgs - класс" Url="html/T_PZone_CommandLineSerializerErrorEventArgs.htm" />
+  <HelpKINode Title="PZone.CommandLineSerializerSettings - класс" Url="html/T_PZone_CommandLineSerializerSettings.htm" />
   <HelpKINode Title="PZone.Json.Converters - пространство имён" Url="html/N_PZone_Json_Converters.htm" />
   <HelpKINode Title="PZone.Json.Converters.NameValueCollectionConverter - класс" Url="html/T_PZone_Json_Converters_NameValueCollectionConverter.htm" />
   <HelpKINode Title="PZone.Json.Converters.WebExceptionConverter - класс" Url="html/T_PZone_Json_Converters_WebExceptionConverter.htm" />
@@ -190,7 +234,6 @@
     <HelpKINode Title="QueryStringConvert - класс" Url="html/T_PZone_Web_QueryStringConvert.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Web_QueryStringConvert__ctor.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Web_QueryStringConvert.htm" />
-    <HelpKINode Title="о QueryStringConvert - класс" Url="html/T_PZone_Web_QueryStringConvert.htm" />
   </HelpKINode>
   <HelpKINode Title="QueryStringConvert.QueryStringConvert конструктор" Url="html/M_PZone_Web_QueryStringConvert__ctor.htm" />
   <HelpKINode Title="QueryStringConvert.SerializeObject метод" Url="html/M_PZone_Web_QueryStringConvert_SerializeObject.htm" />
@@ -201,6 +244,7 @@
   <HelpKINode Title="Second - член перечисления" Url="html/T_PZone_TimeUnit.htm" />
   <HelpKINode Title="SerializeObject метод" Url="html/M_PZone_Web_QueryStringConvert_SerializeObject.htm" />
   <HelpKINode Title="SetBasicAuthorization метод" Url="html/M_PZone_Net_WebHeaderCollectionExtensions_SetBasicAuthorization.htm" />
+  <HelpKINode Title="Settings свойство" Url="html/P_PZone_CommandLineSerializer_Settings.htm" />
   <HelpKINode Title="SetTokenAuthorization метод" Url="html/M_PZone_Net_WebHeaderCollectionExtensions_SetTokenAuthorization.htm" />
   <HelpKINode Title="SystemId свойство">
     <HelpKINode Title="ILoggerConfiguration.SystemId - свойство" Url="html/P_PZone_Logging_ILoggerConfiguration_SystemId.htm" />
@@ -216,7 +260,6 @@
   <HelpKINode Title="UriHelper - класс">
     <HelpKINode Title="UriHelper - класс" Url="html/T_PZone_UriHelper.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_UriHelper.htm" />
-    <HelpKINode Title="о UriHelper - класс" Url="html/T_PZone_UriHelper.htm" />
   </HelpKINode>
   <HelpKINode Title="UriHelper.AppendParameters метод" Url="html/M_PZone_UriHelper_AppendParameters.htm" />
   <HelpKINode Title="UriHelper.Combine метод" Url="html/M_PZone_UriHelper_Combine.htm" />
@@ -229,7 +272,6 @@
     <HelpKINode Title="WebExceptionConverter - класс" Url="html/T_PZone_Json_Converters_WebExceptionConverter.htm" />
     <HelpKINode Title="конструктор" Url="html/M_PZone_Json_Converters_WebExceptionConverter__ctor.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Json_Converters_WebExceptionConverter.htm" />
-    <HelpKINode Title="о WebExceptionConverter - класс" Url="html/T_PZone_Json_Converters_WebExceptionConverter.htm" />
     <HelpKINode Title="свойства" Url="html/Properties_T_PZone_Json_Converters_WebExceptionConverter.htm" />
   </HelpKINode>
   <HelpKINode Title="WebExceptionConverter.CanConvert метод" Url="html/M_PZone_Json_Converters_WebExceptionConverter_CanConvert.htm" />
@@ -239,7 +281,6 @@
   <HelpKINode Title="WebHeaderCollectionExtensions - класс">
     <HelpKINode Title="WebHeaderCollectionExtensions - класс" Url="html/T_PZone_Net_WebHeaderCollectionExtensions.htm" />
     <HelpKINode Title="методы" Url="html/Methods_T_PZone_Net_WebHeaderCollectionExtensions.htm" />
-    <HelpKINode Title="о WebHeaderCollectionExtensions - класс" Url="html/T_PZone_Net_WebHeaderCollectionExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="WebHeaderCollectionExtensions.SetBasicAuthorization метод" Url="html/M_PZone_Net_WebHeaderCollectionExtensions_SetBasicAuthorization.htm" />
   <HelpKINode Title="WebHeaderCollectionExtensions.SetTokenAuthorization метод" Url="html/M_PZone_Net_WebHeaderCollectionExtensions_SetTokenAuthorization.htm" />

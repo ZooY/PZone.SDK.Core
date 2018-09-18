@@ -4,3 +4,5 @@ Source/PZone.Core.Tests/bin/
 Source/PZone.Core.Tests/obj/
 Source/PZone.Core/bin/
 Source/PZone.Core/obj/
+Source/.vs/
+Source/PZone.Core/PZone.Core.csproj.user
